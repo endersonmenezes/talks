@@ -8,12 +8,17 @@ tags:
   - area/personal
   - status/active
 created: 2026-03-23
-updated: 2026-03-24
+updated: 2026-03-25
 source:
 ---
 ## Resumo
 
 Open Source não é apenas uma licença de software — é um modelo de produção coletiva, estudado por economistas, sociólogos e cientistas da computação, que está redefinindo como o mundo cria, compartilha e sustenta tecnologia. Esta palestra conecta a base acadêmica do movimento a práticas concretas de contribuição no GitHub. Este arquivo está otimizado para sua leitura via Obsidian. Se você deseja conhecer um pouco mais do Obsidean, acesse [obsidian.md](https://obsidian.md/).
+
+> [!NOTE] Sobre este documento
+> Este arquivo nasceu de **notas pessoais e pesquisas acumuladas ao longo de muito tempo**, com o auxílio de IA como parceira na organização, estruturação e expansão do conteúdo. Tentei revisar tudo com atenção — mas se algo passou batido, **me faz um PR** 😄
+
+Apresentação de Slides: [Google Slides](https://docs.google.com/presentation/d/1fWq87ske2XvC9e4X6el5weC81XxcqRmj/edit?usp=sharing&ouid=105231768257065375837&rtpof=true&sd=true) - Está disponível para comentários também.
 
 ## Público-alvo
 
@@ -39,7 +44,7 @@ O ouvinte deve sair entendendo **por que** o Open Source funciona (teoria), **o 
 Resposta: todos. Android, Linux, Python, Node.js, VSCode, Firefox, o kernel que roda nos servidores que entregam o conteúdo de vocês — tudo open source.
 
 > *Citação de abertura:*
-> "Commons-based peer production [...] has already produced, and can produce, more—much more—than it has so far." — **Yochai Benkler**, *The Wealth of Networks* (2006) [[#^ref-1-1|[1.1]]]
+> "Vale a pena, no entanto, dedicar algumas páginas a explicar por que, e sob quais condições, a produção colaborativa baseada em bens comuns, e a produção social de forma mais geral, não são apenas sustentáveis, mas também formas eficientes de organizar a produção de informação." — **Yochai Benkler**, *The Wealth of Networks* (2006) [[#^ref-1-1|[1.1]]]
 
 ---
 ### Bloco 2 — O que é Open Source? História e Filosofia (8 min)
@@ -91,7 +96,10 @@ Software é Open Source quando sua licença garante acesso ao código-fonte, per
 > *Slides: analogia visual catedral vs. mercado*
 
 **Eric S. Raymond, "The Cathedral and the Bazaar" (1997/1999)**
-O ensaio mais influente da cultura open source. Raymond descreve dois modelos:
+
+Imaginem uma catedral gótica: construída por um pequeno grupo de mestres artesãos, a portas fechadas, revelada ao mundo somente quando considerada "pronta". Agora imaginem um bazar persa — barulhento, aparentemente caótico, com dezenas de pessoas contribuindo, testando e corrigindo em público o tempo todo.
+
+Raymond usou essa metáfora para descrever dois modelos completamente distintos de desenvolvimento de software — e argumentou que o segundo, contra toda intuição, produz software *melhor*. O ensaio, apresentado originalmente em 1997 na Linux Kongress, se tornou o manifesto cultural do movimento Open Source:
 
 | **A Catedral** | **O Bazar** |
 |---|---|
@@ -110,7 +118,7 @@ A tese central de Raymond: *"Given enough eyeballs, all bugs are shallow"* — b
 
 > *Slides: gráfico de motivações + tipos de contribuidores*
 
-Este é o coração acadêmico da palestra. Pesquisadores se perguntaram: por que alguém cederia seu tempo e expertise gratuitamente?
+Aqui chegamos no coração acadêmico desta palestra — e, pra mim, a parte mais fascinante. Pesquisadores se perguntaram: por que alguém cederia seu tempo e expertise gratuitamente? A resposta vai surpreender vocês.
 
 **Lakhani & Wolf (2005) — O estudo mais citado sobre motivação em OSS**
 Pesquisa com 684 desenvolvedores open source em 287 projetos. Resultado: [[#^ref-4-1|[4.1]]]
@@ -150,7 +158,15 @@ O nome vem de Ronald Coase (Prêmio Nobel de Economia, 1991): Coase explicou por
 
 **Elinor Ostrom e os Comuns (1990)**
 
-Ostrom (Nobel de Ciências Econômicas, 2009 — compartilhado com Oliver Williamson) **desafiou** a tese da "Tragédia dos Comuns" de Garrett Hardin (1968). Ela demonstrou que a tragédia não é inevitável: comunidades são capazes de auto-governar recursos comuns de forma sustentável, sem privatização nem intervenção estatal — uma terceira via ignorada por Hardin.
+Mas antes de falar de Ostrom, precisamos entender o que ela veio derrubar.
+
+**A "Tragédia dos Comuns" de Garrett Hardin (1968)**
+Em um artigo célebre na revista *Science*, Hardin descreveu um dilema clássico: imagine um pasto compartilhado por vários fazendeiros. Cada um, agindo racionalmente em interesse próprio, tem incentivo para adicionar mais um boi — porque o ganho é individual, mas o custo (a degradação do pasto) é distribuído entre todos. Repetido por todos os fazendeiros, o resultado é a destruição inevitável do recurso. Conclusão de Hardin: bens comuns estão *condenados ao fracasso* — a saída seria privatização ou controle estatal.
+
+**Por que isso importa pra gente?**
+Se Hardin estivesse certo, o Linux deveria ter implodido em anos. Por que alguém contribuiria com código que qualquer empresa pode usar de graça, sem retribuição?
+
+Ostrom (Nobel de Ciências Econômicas, 2009 — compartilhado com Oliver Williamson) foi quem **derrubou empiricamente** essa tese. Ela estudou centenas de casos reais de comunidades que gerenciam bens comuns com sucesso — sem privatização, sem Estado. Demonstrou que a tragédia não é inevitável: comunidades são capazes de se auto-governar de forma sustentável — uma terceira via completamente ignorada por Hardin.
 
 Seus **8 princípios de governança de comuns** se aplicam perfeitamente a projetos OSS: [[#^ref-5-2|[5.2]]]
 1. Limites claros (quem é membro da comunidade)
@@ -168,7 +184,7 @@ Seus **8 princípios de governança de comuns** se aplicam perfeitamente a proje
 > *Slides: gráficos de valor econômico + modelo de negócios*
 
 **Lerner & Tirole (2002) — O paper econômico seminal**
-Josh Lerner (Harvard) e Jean Tirole (Nobel de Economia 2014) analisaram os incentivos econômicos do OSS usando teoria dos jogos e economia da informação.
+Dois economistas de peso — Josh Lerner (Harvard) e Jean Tirole (Nobel 2014) — resolveram analisar o Open Source com as ferramentas da teoria dos jogos e da economia da informação. A pergunta deles era basicamente: *isso faz algum sentido econômico?*
 
 Conclusão principal: desenvolvedores investem em OSS porque sinalizam qualidade ao mercado de trabalho. Contribuir é um **mecanismo de reputação** — código público funciona como portfólio verificável. [[#^ref-6-1|[6.1]]]
 
@@ -232,7 +248,7 @@ Pesquisa analisando dados de **291 projetos no GitHub** sobre o modelo pull-base
 **Open Source como estratégia corporativa:**
 - **Linux Foundation** hospeda projetos cujos contribuidores recebem salário de Google, Intel, Microsoft, IBM, Meta...
 - **OpenSSF (Open Source Security Foundation)** — financiamento coletivo de segurança em OSS
-- **CNCF (Cloud Native Computing Foundation)** — Kubernetes, Prometheus, Helm
+- **CNCF (Cloud Native Computing Foundation)** — Kubernetes, Prometheus, Helm, Argo, e mais de 170 projetos. A CNCF não é só infraestrutura — é uma das comunidades open source mais ativas do mundo, com **CNCF Community Groups** locais espalhados pelo planeta. E tem novidade aqui do Paraná: o **CNCF Community Group de Maringá** está sendo criado agora, e a gente está organizando o evento de lançamento! → [acompanhe o processo](https://github.com/cncf/communitygroups/issues/599)
 - Microsoft comprou o GitHub em 2018 por $7,5 bilhões — sinal do valor estratégico
 
 **InnerSource (Stol & Fitzgerald, 2015)**
@@ -243,7 +259,14 @@ Aplicação dos princípios do Open Source dentro de organizações privadas: [[
 - Reconhecimento de contribuição
 
 **Desafio atual — Sustentabilidade:**
-O caso Log4Shell (2021) expôs que dependências críticas de infraestrutura global eram mantidas por voluntários não remunerados. A comunidade ainda debate como financiar de forma sustentável os mantenedores de OSS (Open Collective, GitHub Sponsors, Tidelift).
+
+Em dezembro de 2021, o mundo da tecnologia levou um susto. Uma vulnerabilidade crítica foi descoberta no **Apache Log4j** — uma biblioteca Java de logging usada em literalmente bilhões de dispositivos: servidores da Apple, Amazon, Cloudflare, sistemas industriais, até servidores de Minecraft. A falha, batizada de **Log4Shell** (CVE-2021-44228), permitia execução remota de código — o pior tipo de vulnerabilidade possível. [[#^ref-8-2|[8.2]]]
+
+A pergunta que o mundo fez foi: *quem mantinha essa biblioteca crítica?* A resposta foi constrangedora — um punhado de voluntários, sem remuneração, em seu tempo livre.
+
+Mas não foi só isso. Em março de 2025, um ataque de cadeia de suprimentos comprometeu a **GitHub Action `tj-actions/changed-files`** — usada em dezenas de milhares de repositórios. O atacante modificou a action para vazar segredos de CI (tokens, credenciais de produção) de qualquer repositório que a executasse. Mais uma vez: uma peça de infraestrutura crítica mantida por voluntários, sem modelo de financiamento sustentável. [[#^ref-8-3|[8.3]]]
+
+Esses casos expõem a mesma vulnerabilidade sistêmica: **infraestrutura crítica global sendo mantida por voluntários sobrecarregados**. A comunidade debate como resolver isso com iniciativas como **Open Collective**, **GitHub Sponsors**, **Tidelift** e o **Sovereign Tech Fund** (governo alemão) — mas ainda estamos longe de uma solução estrutural.
 
 ---
 
@@ -547,6 +570,8 @@ Contribuição ≠ apenas código. Segundo a pesquisa de contribuidores da GitHu
 **Chamada para ação:**
 > *"Escolha um projeto que você usa. Abra o repositório no GitHub. Leia o CONTRIBUTING.md. Encontre uma issue com 'good first issue'. Você não precisa saber tudo — você só precisa começar."*
 
+> E se vocês encontrarem algo errado nesta palestra — me façam um PR 😄
+
 ---
 
 ## Apresentações
@@ -609,6 +634,10 @@ Contribuição ≠ apenas código. Segundo a pesquisa de contribuidores da GitHu
 ### Bloco 8 — Open Source na Indústria Hoje
 
 **[8.1]** Stol, K. J., & Fitzgerald, B. (2015). Inner Source—Adopting Open Source Development Practices in Organizations: A Tutorial. *IEEE Software*, 32(4), 60–67. https://ieeexplore.ieee.org/document/6809709 | [InnerSource Commons](https://innersourcecommons.org/) ^ref-8-1
+
+**[8.2]** Apache Software Foundation. (2021). *Apache Log4j Security Vulnerabilities — CVE-2021-44228 (Log4Shell)*. https://logging.apache.org/log4j/2.x/security.html — CISA. (2021). *Alert AA21-356A: Mitigating Log4Shell and Other Log4j-Related Vulnerabilities*. https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-356a ^ref-8-2
+
+**[8.3]** Wiz Research. (2025). *tj-actions/changed-files GitHub Action supply chain attack*. https://www.wiz.io/blog/github-action-tj-actions-changed-files-supply-chain-attack — StepSecurity. (2025). *Harden Runner Detection: tj-actions/changed-files Action Is Compromised*. https://www.stepsecurity.io/blog/harden-runner-detection-tj-actions-changed-files-action-is-compromised ^ref-8-3
 
 ### Bloco 9 — GitHub para Não-Programadores
 
