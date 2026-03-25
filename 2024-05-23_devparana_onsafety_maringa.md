@@ -42,4 +42,3 @@ source: "https://www.meetup.com/pt-br/developerparana/events/300994634/?eventOri
 ## Materiais e Fotos
 
 <!-- Links para fotos, gravações, slides, etc. -->
-- 📸 Buscando fotos

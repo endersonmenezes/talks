@@ -18,15 +18,15 @@ Starting in 2026, I intend to organize the talks and events I participate in a l
 
 ### 2024
 
-- [2024-05-23 - "DevParaná na OnSafety — Maringá"](2024-05-23_devparana_onsafety_maringa.md) · Palestra: *"Papel do SRE"* 📸 buscando fotos
+- [2024-05-23 - "DevParaná na OnSafety — Maringá"](2024-05-23_devparana_onsafety_maringa.md) · Palestra: *"Papel do SRE"* 
 
 ### 2020
 
-- [2020-02-11 - "Dia da Internet Segura 2020"](2020-02-11_dia_da_internet_segura.md) · Mesa Redonda *"Uso Seguro da Internet"* · Organização e mediação 📸 buscando fotos
+- [2020-02-11 - "Dia da Internet Segura 2020"](2020-02-11_dia_da_internet_segura.md) · Mesa Redonda *"Uso Seguro da Internet"* · Organização e mediação
 
 ### 2019
 
-- [2019-10-11 - "Hacktoberfest Maringá 2019"](2019-10-11_hacktoberfest_maringa.md) · Palestra: *"Como começar a contribuir com projetos open source?"* (versão original da talk de GitHub e Open Source) 📸 buscando fotos
+- [2019-10-11 - "Hacktoberfest Maringá 2019"](2019-10-11_hacktoberfest_maringa.md) · Palestra: *"Como começar a contribuir com projetos open source?"* (versão original da talk de GitHub e Open Source)
 
 ## Talks (Old and New)
 

@@ -49,4 +49,5 @@ Mesa Redonda com 5 profissionais debatendo uso seguro, ético e responsável da 
 ## Materiais e Fotos
 
 <!-- Links para fotos, gravações, slides, etc. -->
-- 📸 Buscando fotos
+
+![Foto do Evento](assets/2020-02-11_dia_da_internet_segura_photo1.jpeg)
