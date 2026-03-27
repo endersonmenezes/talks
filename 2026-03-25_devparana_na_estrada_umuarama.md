@@ -8,14 +8,14 @@ tags:
   - area/personal
   - status/active
 created: 2026-03-25
-updated: 2026-03-25
+updated: 2026-03-27
 source: "https://www.meetup.com/pt-br/developerparana/events/313775554/?eventOrigin=group_upcoming_events"
 ---
 
 ## Sobre o Evento
 
 - **Data**: 25/03/2026
-- **Local**: 
+- **Local**: Teatro Neiva Pavan Machado Garcia (UNIPAR)
 - **Cidade / Estado**: Umuarama / PR
 - **Organizador**: DevParaná
 - **Link**: https://www.meetup.com/pt-br/developerparana/events/313775554/?eventOrigin=group_upcoming_events
@@ -25,12 +25,9 @@ source: "https://www.meetup.com/pt-br/developerparana/events/313775554/?eventOri
 - [[talk-github_and_open_source_community|GitHub e Comunidade Open Source]] — 1h
 
 ## Programação / Trilhas
-
 <!-- Palestras ou sessões que assistiu, com speaker quando relevante -->
-- 
 
 ## Anotações e Destaques
-
 <!-- O que foi mais relevante, aprendizados, insights -->
 
 ## Contatos Feitos
@@ -42,4 +39,4 @@ source: "https://www.meetup.com/pt-br/developerparana/events/313775554/?eventOri
 ## Materiais e Fotos
 
 <!-- Links para fotos, gravações, slides, etc. -->
-- 
+- [LinkedIn Social Post](https://www.linkedin.com/posts/endersonmenezes_over-the-past-two-days-i-had-the-incredible-ugcPost-7443303683892801538-6c49/)
