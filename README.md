@@ -15,6 +15,7 @@ Starting in 2026, I intend to organize the talks and events I participate in a l
 
 - [2026-03-25 - "DevParaná na Estrada 2026 - Umuarama"](2026-03-25_devparana_na_estrada_umuarama.md)
 - [2026-03-26 - "DevParaná na Estrada 2026 - Cianorte"](2026-03-26_devparana_na_estrada_cianorte.md)
+- [2026-05-03 - "PySul 2026 — Londrina (SENAI)"](2026-05-03_sul_python.md) · Palestra: *"GitHub e Comunidade Open Source"* — 17:10–17:50 (Sala C)
 
 ### 2024
 
