@@ -8,7 +8,7 @@ tags:
   - area/personal
   - status/active
 created: 2026-05-03
-updated: 2026-05-03
+updated: 2026-05-11
 source: "https://sul.python.org.br/#schedule"
 event:
   name: "PySul 2026 (Python Sul)"
@@ -27,7 +27,7 @@ event:
 
 ## Palestras Apresentadas
 
-- [[talk-github_and_open_source_community|GitHub e Comunidade Open Source]] — 03/05/2026 — 17:10–17:50 (40 min) — Sala C — Speaker: Enderson Menezes Candido
+- [[talk-github_and_open_source_community|GitHub e Comunidade Open Source]] — 03/05/2026 — 17:10–17:50 (40 min) — Sala C — Speaker: Enderson Menezes Candido - [Google Slides](https://docs.google.com/presentation/d/1fWq87ske2XvC9e4X6el5weC81XxcqRmj/edit?usp=sharing&ouid=105231768257065375837&rtpof=true&sd=true)
 
 ## Programação / Trilhas
 
@@ -45,8 +45,8 @@ event:
 
 ## Materiais e Fotos
 
-<!-- Links para fotos, gravações, slides, etc. -->
-- Slides: [Google Slides](https://docs.google.com/presentation/d/1fWq87ske2XvC9e4X6el5weC81XxcqRmj/edit?usp=sharing&ouid=105231768257065375837&rtpof=true&sd=true)
+<img width="800" height="1140" alt="image" src="https://github.com/user-attachments/assets/74fe7f47-c689-4c55-97a4-2874b3ba5455" />
+<img width="800" height="1066" alt="image" src="https://github.com/user-attachments/assets/72c6dd7d-b079-49dd-b081-324b440fcaf1" />
 
 ## Observações
 
