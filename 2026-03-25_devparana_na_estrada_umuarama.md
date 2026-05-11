@@ -38,5 +38,7 @@ source: "https://www.meetup.com/pt-br/developerparana/events/313775554/?eventOri
 
 ## Materiais e Fotos
 
+<img width="1080" height="1350" alt="image" src="https://github.com/user-attachments/assets/e2c34d8e-c3e7-40a6-b384-3aa2032c1f97" />
+
 <!-- Links para fotos, gravações, slides, etc. -->
 - [LinkedIn Social Post](https://www.linkedin.com/posts/endersonmenezes_over-the-past-two-days-i-had-the-incredible-ugcPost-7443303683892801538-6c49/)
