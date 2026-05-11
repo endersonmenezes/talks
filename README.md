@@ -9,6 +9,10 @@ Starting in 2026, I intend to organize the talks and events I participate in a l
   - Folders: `talks/YY
   - Files: `talks/YYYY-MM-DD_event_name.md`
 
+## Sessionize
+
+- **Sessionize**: I will also maintain a [Sessionize profile](https://sessionize.com/endersonmenezes/) to keep track of my speaking engagements and make it easier for event organizers to find me.
+
 ## Events
 
 ### 2026
