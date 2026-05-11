@@ -46,7 +46,7 @@ event:
 ## Materiais e Fotos
 
 <!-- Links para fotos, gravações, slides, etc. -->
-- Slides: [[talk-github_and_open_source_community|GitHub e Comunidade Open Source]] (vincular quando disponível)
+- Slides: [Google Slides](https://docs.google.com/presentation/d/1fWq87ske2XvC9e4X6el5weC81XxcqRmj/edit?usp=sharing&ouid=105231768257065375837&rtpof=true&sd=true)
 
 ## Observações
 
