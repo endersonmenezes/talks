@@ -1,38 +1,23 @@
 # talks
-Starting in 2026, I intend to organize the talks and events I participate in a little better.
 
-> **📸 Resgatando o passado:** Estou buscando e catalogando eventos antigos conforme os encontro. Alguns ainda estão sem fotos — adicionarei quando localizar.
+Registro padronizado de eventos e talks.
 
-## Documentation
-- **Date Convention**: YYYY-MM-DD
-- **Snake Case**: Event names should be in snake_case (e.g., `my_talk_title`).
-  - Folders: `talks/YY
-  - Files: `talks/YYYY-MM-DD_event_name.md`
+## Convenções
+- Date: YYYY-MM-DD
+- Filenames: `YYYY-MM-DD_event-slug.md`
+- Imagens: `assets/YYYY-MM-DD_event_photo1.jpeg`
+- Frontmatter YAML: title,type,status,area,tags,created,updated,source,event:{name,dates,venue,city,organizer,link}
 
-## Sessionize
+## Eventos (resumo)
+| Date | Title | Local | Papel | Link | Status |
+|---|---|---|---|---|---|
+| 2026-05-03 | PySul 2026 — Londrina (SENAI) | Auditório do SENAI, Londrina / PR | Speaker — "GitHub e Comunidade Open Source" (17:10–17:50) | [Arquivo](2026-05-03_sul_python.md) · [Site](https://sul.python.org.br/#schedule) | past |
+| 2026-03-26 | DevParaná na Estrada 2026 — Cianorte | Teatro Cândido Garcia (UNIPAR), Cianorte / PR | Speaker — "GitHub e Comunidade Open Source" | [Arquivo](2026-03-26_devparana_na_estrada_cianorte.md) | past |
+| 2026-03-25 | DevParaná na Estrada 2026 — Umuarama | Teatro Neiva Pavan Machado Garcia (UNIPAR), Umuarama / PR | Speaker — "GitHub e Comunidade Open Source" | [Arquivo](2026-03-25_devparana_na_estrada_umuarama.md) · [Slides](https://docs.google.com/presentation/d/1fWq87ske2XvC9e4X6el5weC81XxcqRmj) | past |
+| 2024-05-23 | DevParaná na OnSafety — Maringá | OnSafety — Av. Centenário, Maringá / PR | Speaker — "Papel do SRE" | [Arquivo](2024-05-23_devparana_onsafety_maringa.md) | past |
+| 2020-02-11 | Dia da Internet Segura 2020 | Câmara dos Vereadores (Plenarinho), Maringá / PR | Organizador / Mediador — Mesa Redonda "Uso Seguro da Internet" | [Arquivo](2020-02-11_dia_da_internet_segura.md) | past |
+| 2019-10-11 | Hacktoberfest Maringá 2019 | Grupo TecnoSpeed, Maringá / PR | Speaker — "Como começar a contribuir com projetos open source?" | [Arquivo](2019-10-11_hacktoberfest_maringa.md) | past |
 
-- **Sessionize**: I will also maintain a [Sessionize profile](https://sessionize.com/endersonmenezes/) to keep track of my speaking engagements and make it easier for event organizers to find me.
-
-## Events
-
-### 2026
-
-- [2026-03-25 - "DevParaná na Estrada 2026 - Umuarama"](2026-03-25_devparana_na_estrada_umuarama.md)
-- [2026-03-26 - "DevParaná na Estrada 2026 - Cianorte"](2026-03-26_devparana_na_estrada_cianorte.md)
-- [2026-05-03 - "PySul 2026 — Londrina (SENAI)"](2026-05-03_sul_python.md) · Palestra: *"GitHub e Comunidade Open Source"* — 17:10–17:50 (Sala C)
-
-### 2024
-
-- [2024-05-23 - "DevParaná na OnSafety — Maringá"](2024-05-23_devparana_onsafety_maringa.md) · Palestra: *"Papel do SRE"* 
-
-### 2020
-
-- [2020-02-11 - "Dia da Internet Segura 2020"](2020-02-11_dia_da_internet_segura.md) · Mesa Redonda *"Uso Seguro da Internet"* · Organização e mediação
-
-### 2019
-
-- [2019-10-11 - "Hacktoberfest Maringá 2019"](2019-10-11_hacktoberfest_maringa.md) · Palestra: *"Como começar a contribuir com projetos open source?"* (versão original da talk de GitHub e Open Source)
-
-## Talks (Old and New)
-
+## Talks
 - [GitHub and Open Source Community](talk-github_and_open_source_community.md)
+

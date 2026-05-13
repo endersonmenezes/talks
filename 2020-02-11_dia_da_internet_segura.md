@@ -8,13 +8,21 @@ tags:
   - area/personal
   - status/past
 created: 2020-02-11
-updated: 2026-03-25
+updated: 2026-05-13
 source: "https://www.meetup.com/pt-br/developerparana/events/268510043/?eventOrigin=group_events_list"
+event:
+  name: "Dia da Internet Segura 2020"
+  dates: "2020-02-11"
+  venue: "Câmara dos Vereadores (Plenarinho) — Av. Papa João XXIII, 239"
+  address: "Av. Papa João XXIII, 239, Maringá / PR"
+  city: "Maringá / PR"
+  organizer: "DevParaná"
+  link: "https://www.meetup.com/pt-br/developerparana/events/268510043/?eventOrigin=group_events_list"
 ---
 
 ## Sobre o Evento
 
-- **Data**: 11/02/2020
+- **Data**: 2020-02-11
 - **Local**: Câmara dos Vereadores (Plenarinho) — Av. Papa João XXIII, 239
 - **Cidade / Estado**: Maringá / PR
 - **Organizador**: DevParaná
@@ -23,6 +31,10 @@ source: "https://www.meetup.com/pt-br/developerparana/events/268510043/?eventOri
 ## Meu Papel
 
 - **Organizador e mediador** da Mesa Redonda *"Uso Seguro da Internet"*
+
+## Palestras Apresentadas
+
+- Mesa Redonda *"Uso Seguro da Internet"* — Mediador: Enderson Menezes
 
 ## Programação / Trilhas
 
@@ -47,7 +59,5 @@ Mesa Redonda com 5 profissionais debatendo uso seguro, ético e responsável da 
 |  |  |  |
 
 ## Materiais e Fotos
-
-<!-- Links para fotos, gravações, slides, etc. -->
 
 ![Foto do Evento](assets/2020-02-11_dia_da_internet_segura_photo1.jpeg)

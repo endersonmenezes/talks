@@ -1,20 +1,28 @@
 ---
 title: "DevParaná na Estrada 2026 — Umuarama"
 type: event
-status: active
+status: past
 area: personal
 tags:
   - kind/event
   - area/personal
-  - status/active
+  - status/past
 created: 2026-03-25
-updated: 2026-03-27
+updated: 2026-05-13
 source: "https://www.meetup.com/pt-br/developerparana/events/313775554/?eventOrigin=group_upcoming_events"
+event:
+  name: "DevParaná na Estrada 2026 — Umuarama"
+  dates: "2026-03-25"
+  venue: "Teatro Neiva Pavan Machado Garcia (UNIPAR)"
+  address: "UNIPAR, Umuarama / PR"
+  city: "Umuarama / PR"
+  organizer: "DevParaná"
+  link: "https://www.meetup.com/pt-br/developerparana/events/313775554/?eventOrigin=group_upcoming_events"
 ---
 
 ## Sobre o Evento
 
-- **Data**: 25/03/2026
+- **Data**: 2026-03-25
 - **Local**: Teatro Neiva Pavan Machado Garcia (UNIPAR)
 - **Cidade / Estado**: Umuarama / PR
 - **Organizador**: DevParaná

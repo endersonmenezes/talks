@@ -1,20 +1,28 @@
 ---
 title: "DevParaná na Estrada 2026 — Cianorte"
 type: event
-status: active
+status: past
 area: personal
 tags:
   - kind/event
   - area/personal
-  - status/active
+  - status/past
 created: 2026-03-26
-updated: 2026-03-27
+updated: 2026-05-13
 source: "https://www.meetup.com/pt-br/developerparana/events/313816476/?eventOrigin=group_events_list"
+event:
+  name: "DevParaná na Estrada 2026 — Cianorte"
+  dates: "2026-03-26"
+  venue: "Teatro Cândido Garcia (UNIPAR)"
+  address: "UNIPAR, Cianorte / PR"
+  city: "Cianorte / PR"
+  organizer: "DevParaná"
+  link: "https://www.meetup.com/pt-br/developerparana/events/313816476/?eventOrigin=group_events_list"
 ---
 
 ## Sobre o Evento
 
-- **Data**: 26/03/2026
+- **Data**: 2026-03-26
 - **Local**: Teatro Cândido Garcia (UNIPAR)
 - **Cidade / Estado**: Cianorte / PR
 - **Organizador**: DevParaná

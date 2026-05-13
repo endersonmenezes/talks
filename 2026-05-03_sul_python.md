@@ -1,18 +1,23 @@
 ---
 title: "PySul 2026 — Londrina (SENAI)"
 type: event
-status: active
+status: past
 area: personal
 tags:
   - kind/event
   - area/personal
-  - status/active
+  - status/past
 created: 2026-05-03
-updated: 2026-05-11
+updated: 2026-05-13
 source: "https://sul.python.org.br/#schedule"
 event:
   name: "PySul 2026 (Python Sul)"
   dates: "01–03/05/2026"
+  venue: "Auditório do SENAI"
+  address: "R. Belém, 844 - Centro, Londrina - PR, 86026-040"
+  city: "Londrina / PR"
+  organizer: "PySul / comunidade Sul.Python"
+  link: "https://sul.python.org.br/#schedule"
 ---
 
 ## Sobre o Evento

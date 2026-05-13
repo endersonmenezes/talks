@@ -8,13 +8,21 @@ tags:
   - area/personal
   - status/past
 created: 2024-05-23
-updated: 2026-03-25
+updated: 2026-05-13
 source: "https://www.meetup.com/pt-br/developerparana/events/300994634/?eventOrigin=group_events_list"
+event:
+  name: "DevParaná na OnSafety — Maringá"
+  dates: "2024-05-23"
+  venue: "OnSafety — Av. Centenário, 116, sala 34"
+  address: "Av. Centenário, 116, sala 34, Maringá / PR"
+  city: "Maringá / PR"
+  organizer: "DevParaná + MaringáTech"
+  link: "https://www.meetup.com/pt-br/developerparana/events/300994634/?eventOrigin=group_events_list"
 ---
 
 ## Sobre o Evento
 
-- **Data**: 23/05/2024
+- **Data**: 2024-05-23
 - **Local**: OnSafety — Av. Centenário, 116, sala 34
 - **Cidade / Estado**: Maringá / PR
 - **Organizador**: DevParaná + MaringáTech

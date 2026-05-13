@@ -8,13 +8,21 @@ tags:
   - area/personal
   - status/past
 created: 2019-10-11
-updated: 2026-03-25
+updated: 2026-05-13
 source: "https://www.meetup.com/pt-br/developerparana/events/265404132/?eventOrigin=group_events_list"
+event:
+  name: "Hacktoberfest Maringá 2019"
+  dates: "2019-10-11"
+  venue: "Grupo TecnoSpeed — R. Vitório Balani, 1211"
+  address: "R. Vitório Balani, 1211, Maringá / PR"
+  city: "Maringá / PR"
+  organizer: "DevParaná"
+  link: "https://www.meetup.com/pt-br/developerparana/events/265404132/?eventOrigin=group_events_list"
 ---
 
 ## Sobre o Evento
 
-- **Data**: 11/10/2019
+- **Data**: 2019-10-11
 - **Local**: Grupo TecnoSpeed — R. Vitório Balani, 1211
 - **Cidade / Estado**: Maringá / PR
 - **Organizador**: DevParaná
@@ -41,7 +49,5 @@ source: "https://www.meetup.com/pt-br/developerparana/events/265404132/?eventOri
 |  |  |  |
 
 ## Materiais e Fotos
-
-<!-- Links para fotos, gravações, slides, etc. -->
 
 ![Foto do Evento](assets/2019-10-11_hacktoberfest_maringa_photo1.jpeg)
