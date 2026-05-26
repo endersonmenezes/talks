@@ -449,7 +449,7 @@ O Brasil é consistentemente uma das maiores comunidades de desenvolvedores no G
 
 - **Operação Serenata de Amor** — um dos projetos de tecnologia cívica mais emblemáticos do Brasil. Criado em 2016 e financiado via crowdfunding (Catarse), o projeto usou inteligência artificial para auditar gastos de parlamentares brasileiros, especificamente a **CEAP** (Cota para o Exercício da Atividade Parlamentar)
   - O sistema **Rosie** é um robô que analisa reembolsos de deputados e identifica gastos suspeitos
-  - O **Jarbas** ([jarbas.serenata.ai](https://jarbas.serenata.ai/)) é a interface web que permite qualquer cidadão consultar os gastos analisados [PENDENTE: verificar disponibilidade em 2026]
+  - O **Jarbas** ([jarbas.serenata.ai](https://jarbas.serenata.ai/)) é a interface web que permite qualquer cidadão consultar os gastos analisados
   - Repositório: [`okfn-brasil/serenata-de-amor`](https://github.com/okfn-brasil/serenata-de-amor)
   - O projeto é um exemplo poderoso de como **open source + dados abertos + comunidade = accountability**
 
@@ -624,7 +624,7 @@ Contribuição ≠ apenas código. Segundo a pesquisa de contribuidores da GitHu
 
 **[7.1]** Dabbish, L., Stuart, C., Tsay, J., & Herbsleb, J. (2012). Social coding in GitHub: Transparency and collaboration in an open software repository. *Proceedings of CSCW 2012*, 1277–1286. https://doi.org/10.1145/2145204.2145396 ^ref-7-1
 
-**[7.2]** Gousios, G., Pinzger, M., & van Deursen, A. (2014). An exploratory study of the pull-based software development model. *Proceedings of ICSE 2014*, 345–355. https://doi.org/10.1145/2568225.2568260 → [PDF livre (autor)](https://gousios.org/pub/exploration-pullreqs.pdf) ^ref-7-2
+**[7.2]** Gousios, G., Pinzger, M., & van Deursen, A. (2014). Exploring the Pull-based Software Development Model: The Integrator's Perspective. *Proceedings of ICSE 2014*, 345–355. https://doi.org/10.1145/2568225.2568260 → [PDF livre (autor)](https://gousios.org/pub/exploration-pullreqs.pdf) ^ref-7-2
 
 **[7.3]** GitHub. (2025). *Octoverse 2025: A new developer joins GitHub every second*. https://github.blog/news-insights/octoverse/octoverse-a-new-developer-joins-github-every-second-as-ai-leads-typescript-to-1 ^ref-7-3
 
@@ -634,7 +634,7 @@ Contribuição ≠ apenas código. Segundo a pesquisa de contribuidores da GitHu
 
 **[8.2]** Apache Software Foundation. (2021). *Apache Log4j Security Vulnerabilities — CVE-2021-44228 (Log4Shell)*. https://logging.apache.org/log4j/2.x/security.html — CISA. (2021). *Alert AA21-356A: Mitigating Log4Shell and Other Log4j-Related Vulnerabilities*. https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-356a ^ref-8-2
 
-**[8.3]** Wiz Research. (2025). *tj-actions/changed-files GitHub Action supply chain attack*. https://www.wiz.io/blog/github-action-tj-actions-changed-files-supply-chain-attack — StepSecurity. (2025). *Harden Runner Detection: tj-actions/changed-files Action Is Compromised*. https://www.stepsecurity.io/blog/harden-runner-detection-tj-actions-changed-files-action-is-compromised ^ref-8-3
+**[8.3]** Wiz Research. (2025). *tj-actions/changed-files GitHub Action supply chain attack*. https://www.wiz.io/blog/github-action-tj-actions-changed-files-supply-chain-attack-cve-2025-30066 — StepSecurity. (2025). *Harden Runner Detection: tj-actions/changed-files Action Is Compromised*. https://www.stepsecurity.io/blog/harden-runner-detection-tj-actions-changed-files-action-is-compromised ^ref-8-3
 
 ### Bloco 9 — GitHub para Não-Programadores
 
