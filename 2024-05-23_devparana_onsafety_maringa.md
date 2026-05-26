@@ -37,16 +37,6 @@ event:
 - **Enderson Menezes** — Papel do SRE
 - **Guilherme Siquinelli** — Arquitetura limpa em Monorepos
 
-## Anotações e Destaques
-
-<!-- O que foi mais relevante, aprendizados, insights -->
-
-## Contatos Feitos
-
-| Nome | Empresa / Papel | Contato |
-|------|----------------|----------|
-|  |  |  |
-
 ## Materiais e Fotos
 
 <!-- Links para fotos, gravações, slides, etc. -->
