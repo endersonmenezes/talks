@@ -30,7 +30,7 @@ event:
 
 ## Palestras Apresentadas
 
-- *Como começar a contribuir com projetos open source?* — Versão original da talk [[talk-github_and_open_source_community|GitHub e Comunidade Open Source]]
+- *Como começar a contribuir com projetos open source?* — Versão original da talk [GitHub e Comunidade Open Source](talk-github_and_open_source_community.md)
   > "Sendo iniciando em programação, também é possível contribuir com projetos de código aberto na internet, o importante é não ter medo de errar e acreditar na comunidade em que você faz parte."
 
 ## Programação / Trilhas

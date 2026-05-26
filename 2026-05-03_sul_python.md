@@ -32,7 +32,7 @@ event:
 
 ## Palestras Apresentadas
 
-- [[talk-github_and_open_source_community|GitHub e Comunidade Open Source]] — 03/05/2026 — 17:10–17:50 (40 min) — Sala C — Speaker: Enderson Menezes Candido - [Google Slides](https://docs.google.com/presentation/d/1fWq87ske2XvC9e4X6el5weC81XxcqRmj/edit?usp=sharing&ouid=105231768257065375837&rtpof=true&sd=true)
+- [GitHub e Comunidade Open Source](talk-github_and_open_source_community.md) — 03/05/2026 — 17:10–17:50 (40 min) — Sala C — Speaker: Enderson Menezes Candido - [Google Slides](https://docs.google.com/presentation/d/1fWq87ske2XvC9e4X6el5weC81XxcqRmj/edit?usp=sharing&ouid=105231768257065375837&rtpof=true&sd=true)
 
 ## Programação / Trilhas
 
