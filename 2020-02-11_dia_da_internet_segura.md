@@ -48,16 +48,6 @@ Mesa Redonda com 5 profissionais debatendo uso seguro, ético e responsável da 
 | Maria Carolina Lolli | Neuropsicopedagogia Clínica e Institucional |
 | Ivan Coelho Dias | Advogado, Direito Empresarial e Digital |
 
-## Anotações e Destaques
-
-<!-- O que foi mais relevante, aprendizados, insights -->
-
-## Contatos Feitos
-
-| Nome | Empresa / Papel | Contato |
-|------|----------------|----------|
-|  |  |  |
-
 ## Materiais e Fotos
 
 ![Foto do Evento](assets/2020-02-11_dia_da_internet_segura_photo1.jpeg)
