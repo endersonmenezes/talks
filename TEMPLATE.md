@@ -34,14 +34,6 @@ event:
 ## Programação / Trilhas
 <!-- Lista de sessões que participou/assistiu -->
 
-## Anotações e Destaques
-<!-- Insights, aprendizados, coisas pra lembrar -->
-
-## Contatos Feitos
-| Nome | Empresa / Papel | Contato |
-|---|---|---|
-| | | |
-
 ## Materiais e Fotos
 <!-- Preferir links relativos para imagens em assets/ -->
 - Slides: 
