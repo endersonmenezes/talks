@@ -28,14 +28,11 @@ Desenvolvedores iniciantes e intermediários, estudantes de computação e tecno
 
 O ouvinte deve sair entendendo **por que** o Open Source funciona (teoria), **o que** o GitHub representa nesse ecossistema (dados), e **como** dar os primeiros passos concretos na contribuição (prática).
 
-## Duração estimada
-
-60 min (45 min de conteúdo + 10–15 min de Q&A) 
 
 ---
 ## Roteiro Detalhado
 
-### Bloco 1 — Abertura (5 min)
+### Bloco 1 — Abertura
 
 > *Slide: título + pergunta provocadora*
 
@@ -47,7 +44,7 @@ Resposta: todos. Android, Linux, Python, Node.js, VSCode, Firefox, o kernel que 
 > "Vale a pena, no entanto, dedicar algumas páginas a explicar por que, e sob quais condições, a produção colaborativa baseada em bens comuns, e a produção social de forma mais geral, não são apenas sustentáveis, mas também formas eficientes de organizar a produção de informação." — **Yochai Benkler**, *The Wealth of Networks* (2006) [[#^ref-1-1|[1.1]]]
 
 ---
-### Bloco 2 — O que é Open Source? História e Filosofia (8 min)
+### Bloco 2 — O que é Open Source? História e Filosofia
 
 > *Slides: linha do tempo + definições*
 
@@ -91,7 +88,7 @@ Software é Open Source quando sua licença garante acesso ao código-fonte, per
 
 ---
 
-### Bloco 3 — A Catedral e o Bazar: dois modelos de desenvolvimento (7 min)
+### Bloco 3 — A Catedral e o Bazar: dois modelos de desenvolvimento
 
 > *Slides: analogia visual catedral vs. mercado*
 
@@ -114,7 +111,7 @@ A tese central de Raymond: *"Given enough eyeballs, all bugs are shallow"* — b
 > *Referência acadêmica:* Raymond, E. S. (1999). *The Cathedral and the Bazaar*. O'Reilly Media. ISBN 978-0596001087. [[#^ref-3-1|[3.1]]]
 
 ---
-### Bloco 4 — A Ciência da Contribuição: Por que as pessoas contribuem? (8 min)
+### Bloco 4 — A Ciência da Contribuição: Por que as pessoas contribuem?
 
 > *Slides: gráfico de motivações + tipos de contribuidores*
 
@@ -141,7 +138,7 @@ Pesquisa com 684 desenvolvedores open source em 287 projetos. Resultado: [[#^ref
 Estudo sobre como novos contribuidores entram em projetos OSS. Identificaram o processo de *"joining script"* — uma sequência de tarefas menores e progressivamente complexas que integra novos membros. Projetos saudáveis têm onboarding estruturado, mesmo que informal. [[#^ref-4-2|[4.2]]]
 
 ---
-### Bloco 5 — Peer Production e Bens Comuns Digitais (8 min)
+### Bloco 5 — Peer Production e Bens Comuns Digitais
 
 > *Slides: triângulo de formas de produção + Ostrom*
 
@@ -179,7 +176,7 @@ Seus **8 princípios de governança de comuns** se aplicam perfeitamente a proje
 8. Organizações aninhadas (para projetos grandes)
 
 ---
-### Bloco 6 — A Economia do Open Source (8 min)
+### Bloco 6 — A Economia do Open Source
 
 > *Slides: gráficos de valor econômico + modelo de negócios*
 
@@ -210,7 +207,7 @@ Brian Fitzgerald documentou a transição do OSS "puramente voluntário" para o 
 
 ---
 
-### Bloco 7 — GitHub como Plataforma Social de Desenvolvimento (7 min)
+### Bloco 7 — GitHub como Plataforma Social de Desenvolvimento
 
 > *Slides: dados do Octoverse + modelo pull request*
 
@@ -241,7 +238,7 @@ Pesquisa analisando dados de **291 projetos no GitHub** sobre o modelo pull-base
 
 ---
 
-### Bloco 8 — Open Source na Indústria Hoje (5 min)
+### Bloco 8 — Open Source na Indústria Hoje
 
 > *Slides: logos de empresas + modelo InnerSource*
 
@@ -270,7 +267,7 @@ Esses casos expõem a mesma vulnerabilidade sistêmica: **infraestrutura crític
 
 ---
 
-### Bloco 9 — GitHub para Não-Programadores (15 min)
+### Bloco 9 — GitHub para Não-Programadores
 
 > *Slides: mosaico de perfis não-técnicos no GitHub + título provocador: "Você não precisa saber programar para contribuir"*
 
@@ -278,7 +275,7 @@ Este bloco expande a ideia central do Bloco 9 anterior: contribuição não é s
 
 ---
 
-#### 9.1 — Quem mais está no GitHub? (5 min)
+#### 9.1 — Quem mais está no GitHub?
 
 > *Slides: uma categoria por slide, com screenshot do repositório e dados*
 
@@ -342,7 +339,7 @@ A tradução de documentação técnica é uma das formas mais acessíveis de co
 
 ---
 
-#### 9.2 — Hacktoberfest para Não-Programadores (3 min)
+#### 9.2 — Hacktoberfest para Não-Programadores
 
 > *Slides: logo Hacktoberfest + timeline + tipos de contribuição*
 
@@ -380,7 +377,7 @@ O Hacktoberfest é o maior evento anual de incentivo à contribuição open sour
 
 ---
 
-#### 9.3 — Comunidades Open Source Internacionais que Incluem Não-Programadores (3 min)
+#### 9.3 — Comunidades Open Source Internacionais que Incluem Não-Programadores
 
 > *Slides: logo de cada comunidade + uma frase sobre como participar sem programar*
 
@@ -426,7 +423,7 @@ Mais do que o Firefox, a Mozilla é uma das comunidades open source mais diversa
 
 ---
 
-#### 9.4 — Comunidades Open Source no Brasil (4 min)
+#### 9.4 — Comunidades Open Source no Brasil
 
 > *Slides: mapa do Brasil com pins das comunidades + dados do Octoverse*
 
@@ -468,7 +465,7 @@ O Brasil é consistentemente uma das maiores comunidades de desenvolvedores no G
 
 ---
 
-#### 9.5 — Codaqui & DevParaná: Open Source que Transforma Vidas (5 min)
+#### 9.5 — Codaqui & DevParaná: Open Source que Transforma Vidas
 
 > *Slides: logo da Codaqui + timeline visual + lista de projetos*
 
@@ -523,7 +520,7 @@ Junte-se à Codaqui pelo **Discord** ou **WhatsApp** através de [codaqui.dev/bi
 
 ---
 
-### Bloco 10 — Como Começar a Contribuir (5 min)
+### Bloco 10 — Como Começar a Contribuir
 
 > *Slides: fluxo visual de contribuição*
 
@@ -557,7 +554,7 @@ Contribuição ≠ apenas código. Segundo a pesquisa de contribuidores da GitHu
 
 ---
 
-### Bloco 11 — Conclusão e Chamada para Ação (3 min)
+### Bloco 11 — Conclusão e Chamada para Ação
 
 > *Slide: resumo + chamada*
 
