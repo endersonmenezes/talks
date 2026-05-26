@@ -38,16 +38,6 @@ event:
 - **Enderson Menezes** — Como começar a contribuir com projetos open source?
 - Espaço aberto para PRs ao vivo durante o evento (Hacktoberfest)
 
-## Anotações e Destaques
-
-<!-- O que foi mais relevante, aprendizados, insights -->
-
-## Contatos Feitos
-
-| Nome | Empresa / Papel | Contato |
-|------|----------------|----------|
-|  |  |  |
-
 ## Materiais e Fotos
 
 ![Foto do Evento](assets/2019-10-11_hacktoberfest_maringa_photo1.jpeg)
