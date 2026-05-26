@@ -35,15 +35,6 @@ event:
 ## Programação / Trilhas
 <!-- Palestras ou sessões que assistiu, com speaker quando relevante -->
 
-## Anotações e Destaques
-<!-- O que foi mais relevante, aprendizados, insights -->
-
-## Contatos Feitos
-
-| Nome | Empresa / Papel | Contato |
-|------|----------------|----------|
-|  |  |  |
-
 ## Materiais e Fotos
 
 <img width="1080" height="1350" alt="image" src="https://github.com/user-attachments/assets/e2c34d8e-c3e7-40a6-b384-3aa2032c1f97" />
