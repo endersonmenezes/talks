@@ -38,21 +38,9 @@ event:
 
 <!-- Palestras ou sessões que assistiu, com speaker quando relevante -->
 
-## Anotações e Destaques
-
-<!-- O que foi mais relevante, aprendizados, insights -->
-
-## Contatos Feitos
-
-| Nome | Empresa / Papel | Contato |
-|------|----------------|---------|
-|  |  |  |
-
 ## Materiais e Fotos
 
 <img width="800" height="1140" alt="image" src="https://github.com/user-attachments/assets/74fe7f47-c689-4c55-97a4-2874b3ba5455" />
 <img width="800" height="1066" alt="image" src="https://github.com/user-attachments/assets/72c6dd7d-b079-49dd-b081-324b440fcaf1" />
 
-## Observações
-
-- Use este arquivo para registrar anotações pós-palestra, links para gravação, fotos e contatos. Atualize o campo `status` para `past` após arquivar o evento.
+- [LinkedIn Post](https://www.linkedin.com/posts/endersonmenezes_conex%C3%B5es-rede-social-real-e-a-realiza%C3%A7%C3%A3o-activity-7457076156308226048-6pyb?utm_source=share&utm_medium=member_desktop&rcm=ACoAABUh3n0B71at7h9NUs4Of5h9CNlK27v1wwg)
