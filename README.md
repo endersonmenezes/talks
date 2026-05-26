@@ -24,4 +24,5 @@ Registro padronizado de eventos e talks.
 ## Talks
 - [GitHub and Open Source Community](talk-github_and_open_source_community.md)
 - [Self-Hosting: Hospedando um Portal em Casa](talk-self-hosting-own-app.md)
+- [Data Engineering to Platform Engineering](talk-data-engineering-to-platform-engineering.md)
 
