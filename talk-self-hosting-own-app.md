@@ -713,14 +713,6 @@ Se você hospedar algo usando essa stack — ou encontrar algo para melhorar —
 
 ---
 
-## Apresentações
-
-| Data | Evento | Cidade | Link | Slides |
-|---|---|---|---|---|
-| *(em breve)* | — | — | — | — |
-
----
-
 ## Referências e Bibliografia
 
 > Organizadas por Bloco. O número entre colchetes `[N.M]` identifica cada referência no texto.
