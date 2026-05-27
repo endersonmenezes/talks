@@ -125,7 +125,7 @@ A decisão da Codaqui foi consciente: a API é importante, mas uma intermitênci
 
 ---
 
-### Bloco 4 — A Stack da Codaqui: Cada Peça e Por Quê (8 min)
+### Bloco 4 — A Stack da Codaqui: Cada Peça e Por Quê
 
 > *Slides: diagrama de arquitetura em dois ambientes — local e produção (Pi)*
 
@@ -200,7 +200,7 @@ Componente de rede responsável por expor o backend sem necessidade de IPv4 púb
 
 ---
 
-### Bloco 5 — Rodando Tudo Localmente: Do Clone ao Primeiro Request (8 min)
+### Bloco 5 — Rodando Tudo Localmente: Do Clone ao Primeiro Request
 
 > *Slides: fluxo de setup com código + saída do terminal*
 
@@ -307,7 +307,7 @@ make backend-test             # executa os testes unitários
 
 ---
 
-### Bloco 6 — Do x86 para ARM64: Construindo para a Raspberry Pi (7 min)
+### Bloco 6 — Do x86 para ARM64: Construindo para a Raspberry Pi
 
 > *Slides: diagrama de build multi-arch + o problema do QEMU + fluxo CI→GHCR→Pi*
 
@@ -419,7 +419,7 @@ Esse fluxo pode ser totalmente automatizado com GitHub Actions — um `push` na 
 
 ---
 
-### Bloco 7 — Expondo a API sem IP Público: Cloudflare Tunnel (7 min)
+### Bloco 7 — Expondo a API sem IP Público: Cloudflare Tunnel
 
 > *Slides: diagrama do tunnel — conexão de saída, não de entrada*
 
@@ -505,6 +505,8 @@ sudo systemctl daemon-reload
 sudo systemctl enable --now cloudflared
 ```
 
+> ⚠️ **Nota sobre `User=root`:** o serviço está configurado com root para simplificar o acesso ao credentials file durante o setup inicial. Para hardening em produção, crie um usuário dedicado (`cloudflared`), ajuste as permissões dos arquivos em `/etc/cloudflared/` e altere `User=cloudflared` no unit file. O `cloudflared` não precisa de acesso ao Docker, ao Podman ou ao socket do Coolify — ele apenas faz conexão TCP para `localhost:3002` (acessível por qualquer usuário local) e conexões de saída para a Cloudflare. Consulte a documentação oficial para o passo a passo de least-privilege.
+
 **Validação:**
 
 ```bash
@@ -522,7 +524,7 @@ O Cloudflare Access permite adicionar autenticação antes do request chegar ao 
 
 ---
 
-### Bloco 8 — Coolify: Uma PaaS Open Source no seu Próprio Hardware (6 min)
+### Bloco 8 — Coolify: Uma PaaS Open Source no seu Próprio Hardware
 
 > *Slides: print da interface do Coolify + diagrama "Git push → Coolify → Pi"*
 
@@ -538,12 +540,16 @@ Coolify é uma plataforma open-source e auto-hospedável que funciona como alter
 
 Suporta qualquer máquina acessível via SSH: VPS, bare metal, Raspberry Pi, notebook velho. A Codaqui usa-o para gerenciar o que roda na Pi sem precisar lembrar cada flag do podman.
 
+> ℹ️ **Coolify e Podman:** o Coolify roda internamente com Docker. Para o desenvolvimento local, a Codaqui incentiva o uso do Podman — compatível sintaticamente com Docker, mas sem daemon root. No Pi (produção), o Coolify gerencia os containers via Docker. Ao clonar o repositório e trabalhar localmente, use `podman compose` conforme documentado no Makefile.
+
 **Instalação (60 segundos):**
 
 ```bash
 # No servidor/Pi — um único comando
 curl -fsSL https://cdn.coollabs.io/coolify/install.sh | bash
 ```
+
+> ⚠️ **Verifique o comando atualizado:** a URL e os flags do script de instalação podem mudar entre versões. Consulte sempre o site oficial antes de executar: [coolify.io/docs/installation](https://coolify.io/docs/installation)
 
 Isso instala o Coolify, cria os containers necessários e expõe uma UI na porta 8000. Depois: adicione o servidor via SSH, conecte o repositório GitHub, e o Coolify assume o ciclo de deploy.
 
@@ -580,7 +586,7 @@ O Coolify representa uma tendência mais ampla: a repatriação das ferramentas 
 
 ---
 
-### Bloco 9 — Segurança, Secrets e Manutenção (5 min)
+### Bloco 9 — Segurança, Secrets e Manutenção
 
 > *Slides: checklist de segurança + diagrama de backup*
 
@@ -650,7 +656,7 @@ O projeto também inclui `scripts/db-restore-prod.sh` para restaurar dumps de pr
 
 ---
 
-### Bloco 10 — O Que Aprendemos: Erros, Acertos e Decisões (4 min)
+### Bloco 10 — O Que Aprendemos: Erros, Acertos e Decisões
 
 > *Slide: "lessons learned" com ícones ✅ e ❌*
 
@@ -686,7 +692,7 @@ O projeto também inclui `scripts/db-restore-prod.sh` para restaurar dumps de pr
 
 ---
 
-### Bloco 11 — Conclusão e Chamada para Ação (3 min)
+### Bloco 11 — Conclusão e Chamada para Ação
 
 > *Slide: Raspberry Pi + api.codaqui.dev uptime dashboard*
 
@@ -695,7 +701,7 @@ O projeto também inclui `scripts/db-restore-prod.sh` para restaurar dumps de pr
 - Self-hosting não é para todo mundo — mas para projetos educacionais e comunitários, o custo-benefício e o aprendizado são extraordinários
 - A stack (NestJS + PostgreSQL + Podman + Cloudflare Tunnel) é reproduzível, documentada e inteiramente open source
 - O maior desafio não foi técnico — foi cultural: disciplina com secrets, migrations e backups
-- Uma Raspberry Pi 4 é perfeitamente capaz de rodar uma API REST com banco de dados para centenas de usuários simultâneos
+- Uma Raspberry Pi 4 é perfeitamente capaz de rodar uma API REST com banco de dados para centenas de usuários simultâneos — confira as métricas reais de uso em [codaqui.dev/sobre/insights](https://codaqui.dev/sobre/insights) e os dados abertos em [github.com/codaqui/dados](https://github.com/codaqui/dados)
 
 **Chamada para ação:**
 
@@ -729,7 +735,7 @@ Se você hospedar algo usando essa stack — ou encontrar algo para melhorar —
 
 ### Bloco 3 — A Economia do Self-Hosting
 
-**[3.1]** We have left the cloud*. HEY World. https://world.hey.com/dhh/why-we-re-leaving-the-cloud-654b47e0 ^ref-3-1
+**[3.1]** Hansson, D. H. (2022). *Why we're leaving the cloud*. HEY World. https://world.hey.com/dhh/why-we-re-leaving-the-cloud-654b47e0 ^ref-3-1
 
 **[3.2]** Wang, S., Casado, M. (2021). *The Cost of Cloud, a Trillion Dollar Paradox*. Andreessen Horowitz (a16z). https://a16z.com/the-cost-of-cloud-a-trillion-dollar-paradox/ ^ref-3-2
 
