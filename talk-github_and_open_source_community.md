@@ -13,12 +13,14 @@ source:
 ---
 ## Resumo
 
-Open Source não é apenas uma licença de software — é um modelo de produção coletiva, estudado por economistas, sociólogos e cientistas da computação, que está redefinindo como o mundo cria, compartilha e sustenta tecnologia. Esta palestra conecta a base acadêmica do movimento a práticas concretas de contribuição no GitHub. Este arquivo está otimizado para sua leitura via Obsidian. Se você deseja conhecer um pouco mais do Obsidean, acesse [obsidian.md](https://obsidian.md/).
+Open Source não é apenas uma licença de software — é um modelo de produção coletiva, estudado por economistas, sociólogos e cientistas da computação, que está redefinindo como o mundo cria, compartilha e sustenta tecnologia. Esta palestra conecta a base acadêmica do movimento a práticas concretas de contribuição no GitHub. Este arquivo está otimizado para sua leitura via Obsidian. Se você deseja conhecer um pouco mais do Obsidian, acesse [obsidian.md](https://obsidian.md/).
 
 > [!NOTE] Sobre este documento
 > Este arquivo nasceu de **notas pessoais e pesquisas acumuladas ao longo de muito tempo**, com o auxílio de IA como parceira na organização, estruturação e expansão do conteúdo. Tentei revisar tudo com atenção — mas se algo passou batido, **me faz um PR** 😄
 
-Apresentação de Slides: [Google Slides](https://docs.google.com/presentation/d/1fWq87ske2XvC9e4X6el5weC81XxcqRmj/edit?usp=sharing&ouid=105231768257065375837&rtpof=true&sd=true) - Está disponível para comentários também.
+Apresentação de Slides: 
+- [Google Slides v1](https://docs.google.com/presentation/d/1fWq87ske2XvC9e4X6el5weC81XxcqRmj/edit?usp=sharing&ouid=105231768257065375837&rtpof=true&sd=true)
+- [Google Slides v2](https://docs.google.com/presentation/d/16DBCYO4JEXOIjpCqgOlYmrrkzlk9o0yo47mP3fz1-bI/edit?usp=sharing)
 
 ## Público-alvo
 
@@ -200,9 +202,9 @@ Brian Fitzgerald documentou a transição do OSS "puramente voluntário" para o 
 | Modelo | Exemplos |
 |---|---|
 | Dual licensing | MySQL, Qt |
-| SaaS sobre OSS | Red Hat, Elastic |
-| Open core | GitLab, HashiCorp |
-| Serviços e suporte | Canonical, IBM |
+| SaaS sobre OSS | Elastic |
+| Open core | GitLab, HashiCorp *(BUSL relicensing em 2023)* |
+| Serviços e suporte | Canonical, IBM, Red Hat |
 | Financiamento de fundações | Apache, Linux Foundation |
 
 ---
@@ -429,7 +431,7 @@ Mais do que o Firefox, a Mozilla é uma das comunidades open source mais diversa
 
 **Brasil no GitHub — Panorama**
 
-O Brasil é consistentemente uma das maiores comunidades de desenvolvedores no GitHub. Segundo o **GitHub Octoverse 2025**, o Brasil ocupava a **3ª posição** no ranking de países com mais desenvolvedores na plataforma, atrás apenas de Estados Unidos, Índia e China. No Octoverse 2024 o Brasil aparece entre a 4ª e 5ª posição. [[#^ref-9-5|[9.5]]]
+O Brasil é consistentemente uma das maiores comunidades de desenvolvedores no GitHub. Segundo o **GitHub Octoverse 2025** [[#^ref-9-5c|[9.5c]]], o Brasil ocupava a **3ª posição** no ranking de países com mais desenvolvedores na plataforma, atrás apenas de Estados Unidos, Índia e China. No Octoverse 2024 o Brasil aparece entre a 4ª e 5ª posição [[#^ref-9-5b|[9.5b]]].
 
 ![Imagem com Projeção para 2030](https://github.blog/wp-content/uploads/2025/10/octoverse-2025-projecting-the-top-developer-populations-2030.png?w=768)
 
@@ -525,7 +527,7 @@ Junte-se à Codaqui pelo **Discord** ou **WhatsApp** através de [codaqui.dev/bi
 > *Slides: fluxo visual de contribuição*
 
 **Desmistificando a barreira de entrada:**
-Contribuição ≠ apenas código. Segundo a pesquisa de contribuidores da GitHub (2023), as contribuições mais necessárias são frequentemente:
+Contribuição ≠ apenas código. Segundo o GitHub Octoverse 2023 [[#^ref-9-5|[9.5]]], as contribuições mais necessárias são frequentemente:
 - Documentação e tradução
 - Triagem de issues
 - Revisão de código
@@ -646,7 +648,11 @@ Contribuição ≠ apenas código. Segundo a pesquisa de contribuidores da GitHu
 
 **[9.4]** CHAOSS Project. Community Health Analytics in Open Source Software. Linux Foundation. https://chaoss.community/ ^ref-9-4
 
-**[9.5]** GitHub. (2023). *Octoverse 2023*. https://github.blog/news-insights/octoverse/ ^ref-9-5
+**[9.5]** GitHub. (2023). *Octoverse 2023*. https://github.blog/news-insights/research/the-state-of-open-source-and-ai/ ^ref-9-5
+
+**[9.5b]** GitHub. (2024). *Octoverse 2024*. https://github.blog/news-insights/octoverse/octoverse-2024/ ^ref-9-5b
+
+**[9.5c]** GitHub. (2025). *Octoverse 2025*. https://octoverse.github.com/ ^ref-9-5c
 
 **[9.6]** Codaqui. *Associação Codaqui* (CNPJ: 44.593.429/0001-05). https://www.codaqui.dev/ → [ONG](https://www.codaqui.dev/ong/) | [Projetos](https://www.codaqui.dev/projetos/) | [Timeline](https://www.codaqui.dev/timeline/) | [Código de Conduta](https://www.codaqui.dev/conduta/) | [Transparência](https://opencollective.com/codaqui) ^ref-9-6
 
