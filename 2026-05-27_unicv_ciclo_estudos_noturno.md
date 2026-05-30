@@ -1,12 +1,12 @@
 ---
 title: "XXII Ciclo de Estudos Noturno — UniCV Maringá"
 type: event
-status: upcoming
+status: active
 area: personal
 tags:
   - kind/event
   - area/personal
-  - status/upcoming
+  - status/active
 created: 2026-05-26
 updated: 2026-05-26
 source: "https://www.sympla.com.br/evento/xxii-ciclo-de-estudos-noturno-inscricoes-encerradas/3329894"
