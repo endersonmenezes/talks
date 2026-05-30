@@ -138,7 +138,7 @@ Em termos de Engenharia de Plataformas, a analogia é direta:
 
 | Conceito (Data Engineering) | Equivalente (Platform Engineering) |
 |---|---|
-| Tabela de fato | Uma capacidade do landscape (CI/CD, Security, Observability...) |
+| Tabela de fato | Eventos e métricas registrados (builds, deploys, alertas, CVEs, releases...) |
 | Tabelas de dimensão compartilhadas | Átomo Tecnológico (hub central partilhado por todas as estrelas) |
 | Esquema Galáxia | Internal Developer Portal (IDP) |
 
@@ -160,7 +160,7 @@ Todas orbitam o mesmo **Sol**: o **Átomo Tecnológico**.
       ⭐ Version Control    ⭐ Infrastructure
 ```
 
-O Átomo Tecnológico é o **Sol da Galáxia de Plataformas** — a dimensão compartilhada que conecta todas as estrelas de capacidade. É equivalente ao **Software Catalog** do IDP: a entidade central que dá sentido a todas as outras.
+O Átomo Tecnológico é o **Sol da Galáxia de Plataformas** — a principal dimensão compartilhada entre todos os fact domains *(na metáfora: o centro gravitacional; no modelo formal: a entidade de contexto reutilizada por cada estrela de capacidade, o denominador comum do landscape)*. É equivalente ao **Software Catalog** do IDP: a entidade central que dá sentido a todas as outras.
 
 Um IDP construído sobre esse modelo não é uma ferramenta — é o **centro gravitacional do landscape tecnológico**.
 
@@ -376,43 +376,56 @@ O resultado é uma plataforma que **não compete** com as ferramentas existentes
 >
 > *Tradução livre: "Quando a magia da IA entra em cena, ela simplesmente expõe uma quantidade enorme de dívida técnica. Se a sua documentação está presa em PDFs ou suas políticas de segurança são inconsistentes, um agente de IA não vai resolver — ele apenas vai falhar de forma mais eficiente."*
 
-**86% das organizações acreditam que Platform Engineering é essencial para realizar o valor total da IA no negócio.** *(State of AI in Platform Engineering, 2025)*
+**86% das organizações acreditam que Platform Engineering é essencial para realizar o valor total da IA no negócio.** *(Google Cloud, [New Platform Engineering Research Report](https://cloud.google.com/blog/products/application-modernization/new-platform-engineering-research-report), 2025)*
 
 O Átomo Tecnológico — como Sol do esquema galáxia — é exatamente a estrutura que dá à IA o que ela precisa: **APIs documentadas, dados de contexto centralizados e relações explícitas entre entidades tecnológicas**.
 
 ---
 ## Referências
 
+> Legenda: ✅ Acessível | 📚 Livro
+
 ### ThoughtWorks
-- [The Curse of the Data Lake Monster](https://www.thoughtworks.com/en-gb/insights/blog/data-engineering/curse-data-lake-monster) *(fev. 2019)*
-- [Engineering Platform: Key to Maximizing Software Development Effectiveness](https://www.thoughtworks.com/en-br/insights/blog/platforms/engineering-platform-key-to-maximizing-software-development-effectiveness) *(23 fev. 2023)*
-- [Platform Engineering: Help Developers Deliver More Value at a Lower Cost](https://www.thoughtworks.com/en-br/insights/articles/platform-engineering-help-developers-deliver-more-value-at-a-lower-cost) *(2 ago. 2023)*
-- [The Evolution of Platform Engineering: Lessons from the Trenches](https://www.thoughtworks.com/en-br/insights/blog/platforms/the-evolution-of-platform-engineering--lessons-from-the-trenches) *(15 set. 2025)*
-- [Enterprise Guide to Platform Thinking (PDF)](https://www.thoughtworks.com/content/dam/thoughtworks/documents/guide/tw_guide_enterprise_guide_to_platform_thinking.pdf) *(PDF binário — não extraível por ferramentas)*
-- [How ThoughtWorks Bridges the Platform Engineering Gap — TheNewStack](https://thenewstack.io/how-thoughtworks-bridges-the-platform-engineering-gap/)
+- ✅ [The Curse of the Data Lake Monster](https://www.thoughtworks.com/en-gb/insights/blog/data-engineering/curse-data-lake-monster) *(fev. 2019)*
+- ✅ [Engineering Platform: Key to Maximizing Software Development Effectiveness](https://www.thoughtworks.com/en-br/insights/blog/platforms/engineering-platform-key-to-maximizing-software-development-effectiveness) *(23 fev. 2023)*
+- ✅ [Platform Engineering: Help Developers Deliver More Value at a Lower Cost](https://www.thoughtworks.com/en-br/insights/articles/platform-engineering-help-developers-deliver-more-value-at-a-lower-cost) *(2 ago. 2023)*
+- ✅ [The Evolution of Platform Engineering: Lessons from the Trenches](https://www.thoughtworks.com/en-br/insights/blog/platforms/the-evolution-of-platform-engineering--lessons-from-the-trenches) *(15 set. 2025)*
+
 ### Martin Fowler
-- [DataLake](https://martinfowler.com/bliki/DataLake.html) *(fev. 2015)*
-- [How to Move Beyond a Monolithic Data Lake to a Distributed Data Mesh](https://martinfowler.com/articles/data-monolith-to-mesh.html) *(20 mai. 2019)* - [Zhamak Dehghani](https://twitter.com/zhamakd)
-- [What I Talk About When I Talk About Platforms](https://martinfowler.com/articles/talk-about-platforms.html) *(5 mar. 2018)* - [Evan Bottcher](https://twitter.com/evanbottcher)
-- [Team Topologies](https://martinfowler.com/bliki/TeamTopologies.html) *(set. 2019)*
-- [Building an Infrastructure Platform](https://martinfowler.com/articles/building-infrastructure-platform.html) *(9 fev. 2022)* - [Poppy Rowse](https://poppy-rowse.medium.com/) & [Chris Shepherd](https://thesheps.medium.com/)
+- ✅ [DataLake](https://martinfowler.com/bliki/DataLake.html) *(fev. 2015)*
+- ✅ [How to Move Beyond a Monolithic Data Lake to a Distributed Data Mesh — Zhamak Dehghani](https://martinfowler.com/articles/data-monolith-to-mesh.html) *(20 mai. 2019)*
+- ✅ [What I Talk About When I Talk About Platforms — Evan Bottcher](https://martinfowler.com/articles/talk-about-platforms.html) *(5 mar. 2018)*
+- ✅ [Team Topologies](https://martinfowler.com/bliki/TeamTopologies.html) *(set. 2019)*
+- ✅ [Building an Infrastructure Platform — Poppy Rowse & Chris Shepherd](https://martinfowler.com/articles/building-infrastructure-platform.html) *(9 fev. 2022)*
+
 ### Backstage (Spotify)
-- [Software Catalog System Model](https://backstage.io/docs/features/software-catalog/system-model) *(s.d., documentação viva)*
-- [Software Templates](https://backstage.io/docs/features/software-templates/)
-- [Backend System](https://backstage.io/docs/backend-system/)
-- [Frontend System Architecture](https://backstage.io/docs/frontend-system/architecture/generated-index)
+- ✅ [Software Catalog System Model](https://backstage.io/docs/features/software-catalog/system-model) *(s.d., documentação viva)*
+
 ### Port.io
-- [What You Need to Know About the Data Model in an IDP](https://www.port.io/blog/what-you-need-to-know-about-the-data-model-in-an-internal-developer-portal) *(18 jun. 2025)*
-- [Scorecards: Concepts and Structure](https://docs.port.io/scorecards/concepts-and-structure)
-- [Default Components](https://docs.port.io/getting-started/default-components)
+- ✅ [What You Need to Know About the Data Model in an IDP](https://www.port.io/blog/what-you-need-to-know-about-the-data-model-in-an-internal-developer-portal) *(18 jun. 2025)*
+- ✅ [Default Components](https://docs.port.io/getting-started/default-components)
+
 ### Data Engineering & Data Warehousing
-- [O que é um Esquema em Estrela? — Databricks](https://www.databricks.com/br/blog/what-is-star-schema) *(c. 2024)*
-- [Galaxy Schema in Data Warehouse Modeling — GeeksForGeeks](https://www.geeksforgeeks.org/gate/galaxy-schema-in-data-warehouse-modeling/) *(20 nov. 2025)*
+- ✅ [O que é um Esquema em Estrela? — Databricks](https://www.databricks.com/br/blog/what-is-star-schema) *(c. 2024)*
+- ✅ [Galaxy Schema in Data Warehouse Modeling — GeeksForGeeks](https://www.geeksforgeeks.org/gate/galaxy-schema-in-data-warehouse-modeling/) *(20 nov. 2025)*
 - 📚 Kimball, R. & Ross, M. *The Data Warehouse Toolkit: The Definitive Guide to Dimensional Modeling*, 3ª ed. Wiley, 2013.
 
 ### CNCF
-- [Platform Engineering Maturity Model](https://tag-app-delivery.cncf.io/whitepapers/platform-eng-maturity-model/) *(out. 2023)*
-- [CNCF Landscape](https://landscape.cncf.io/)
+- ✅ [Platform Engineering Maturity Model](https://tag-app-delivery.cncf.io/whitepapers/platform-eng-maturity-model/) *(out. 2023)*
+
 ### Outros
-- [AI Needs Platform Engineering — PlatformEngineering.org](https://platformengineering.org/blog/ai-needs-platform-engineering-just-ask-thoughtworks-and-google) *(8 out. 2025)*
-- [Your Data Model is Actually a Product — Adora Nwodo (LinkedIn)](https://www.linkedin.com/pulse/your-data-model-actually-product-adora-nwodo-peedc/) *(s.d.)*
+- ✅ [AI Needs Platform Engineering — PlatformEngineering.org](https://platformengineering.org/blog/ai-needs-platform-engineering-just-ask-thoughtworks-and-google) *(8 out. 2025)*
+- ✅ [New Platform Engineering Research Report — Google Cloud Blog](https://cloud.google.com/blog/products/application-modernization/new-platform-engineering-research-report) *(2025)*
+- ✅ [Your Data Model is Actually a Product — Adora Nwodo (LinkedIn)](https://www.linkedin.com/pulse/your-data-model-actually-product-adora-nwodo-peedc/) *(s.d.)*
+
+### Leitura Complementar
+
+> Documentação de suporte não citada diretamente no texto.
+
+- ✅ [Enterprise Guide to Platform Thinking (PDF) — ThoughtWorks](https://www.thoughtworks.com/content/dam/thoughtworks/documents/guide/tw_guide_enterprise_guide_to_platform_thinking.pdf)
+- ✅ [How ThoughtWorks Bridges the Platform Engineering Gap — TheNewStack](https://thenewstack.io/how-thoughtworks-bridges-the-platform-engineering-gap/)
+- ✅ [Software Templates — Backstage](https://backstage.io/docs/features/software-templates/)
+- ✅ [Backend System — Backstage](https://backstage.io/docs/backend-system/)
+- ✅ [Frontend System Architecture — Backstage](https://backstage.io/docs/frontend-system/architecture/generated-index)
+- ✅ [Scorecards: Concepts and Structure — Port.io](https://docs.port.io/scorecards/concepts-and-structure)
+- ✅ [CNCF Landscape](https://landscape.cncf.io/)
