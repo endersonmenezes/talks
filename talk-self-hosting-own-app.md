@@ -452,7 +452,7 @@ cloudflared (daemon no Pi)
 backend-codaqui:3002
 ```
 
-Ninguém acessa o Pi diretamente. Todo tráfego passa pelo edge da Cloudflare, que é responsável por TLS, proteção DDoS, rate limiting e roteamento. [[#^ref-7-1|[7.1]]]
+Ninguém acessa o Pi diretamente. Todo tráfego passa pelo edge da Cloudflare, que é responsável por TLS e proteção DDoS. Rate limiting e regras de acesso adicionais podem ser configurados separadamente via Cloudflare Rules. [[#^ref-7-1|[7.1]]]
 
 Do ponto de vista da rede doméstica: nenhuma porta aberta, nenhum IP público necessário. O Pi é completamente invisível na internet — exceto pelo que você configura explicitamente no ingress do tunnel.
 
@@ -573,7 +573,7 @@ GitHub push (main)
               │
               └─→ Coolify detecta nova imagem
                         │
-                        └─→ `podman compose pull` + `up` no Pi
+                        └─→ `docker compose pull` + `up` no Pi (via Coolify)
                                   │
                                   └─→ Cloudflare Tunnel expõe api.codaqui.dev
 ```
