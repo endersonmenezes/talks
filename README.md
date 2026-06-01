@@ -2,6 +2,8 @@
 
 Registro padronizado de eventos e talks.
 
+- [Sessionize](https://sessionize.com/endersonmenezes/)
+
 ## Convenções
 - Date: YYYY-MM-DD
 - Filenames: `YYYY-MM-DD_event-slug.md`
