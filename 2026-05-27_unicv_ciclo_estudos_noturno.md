@@ -46,8 +46,10 @@ event:
 
 ## Materiais e Fotos
 
-- Slides: 
-- Fotos: 
+<img alt="5d07bb62-f649-4ee1-a893-0f2c2a7b88f9" src="https://github.com/user-attachments/assets/63bd9602-d77d-44d1-9b80-97a25da952ed" />
+
+<video src="https://github.com/user-attachments/assets/51db95ca-7a06-494f-8c1d-5bacbf2be624"></video>
+
 
 ## Observações
 
