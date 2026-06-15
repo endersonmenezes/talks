@@ -18,6 +18,8 @@ updated: 2026-06-14
 # DevOps e MLOps Aplicado a Engenharia de Dados
 
 Disciplina para pós-graduação/especialização em Engenharia de Dados.
+**Aplicação:** Junho e Julho de 2026, com o apoio da [UNICIVE](https://unicive.com/).
+**Repositório Base Oficial:** [endersonmenezes/pos-ia-eng-devops](https://github.com/endersonmenezes/pos-ia-eng-devops)
 
 ## 📂 Estrutura
 
@@ -41,7 +43,7 @@ Disciplina para pós-graduação/especialização em Engenharia de Dados.
 
 ## 🧰 Artefatos-base esperados
 
-- **Repositório-template da turma** com scaffolding do projeto e TODOs para realizar.
+- **Repositório-template da turma** ([pos-ia-eng-devops](https://github.com/endersonmenezes/pos-ia-eng-devops)) com scaffolding do projeto e TODOs para realizar.
 - **Dataset-base ou API recomendada** para os labs
 - **Template de ADR** para documentar decisões técnicas
 - **Kit local de operação** com workflow de CI, manifests `k8s/` e `Makefile`
