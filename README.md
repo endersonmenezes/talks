@@ -32,7 +32,6 @@ Esta pasta está dividida nos seguintes temas:
 Estes são os temas recorrentes de palestras que possuo materiais base:
 
 - [GitHub and Open Source Community](presentations/talk-github_and_open_source_community.md)
-- [Self-Hosting: Hospedando um Portal em Casa](presentations/talk-self-hosting-own-app.md)
 - [Data Engineering to Platform Engineering](presentations/talk-data-engineering-to-platform-engineering.md)
 
 ---
@@ -41,6 +40,13 @@ Estes são os temas recorrentes de palestras que possuo materiais base:
 Disciplinas lecionadas com materiais, bibliografia e anotações abertas.
 
 - [DevOps, IA e Engenharia de Dados](courses/devops-ai-eng-dados/README.md)
+
+---
+
+## 🛠️ Workshops e Hands-on (Workshops)
+Materiais práticos, trilhas e laboratórios estilo *hands-on*.
+
+- [Self-Hosting: Hospedando um Portal em Casa](workshops/workshop-self-hosting-own-app.md)
 
 ---
 
