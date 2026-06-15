@@ -13,7 +13,7 @@ tags:
   - resource/data-engineering
   - status/active
 created: 2026-04-15
-updated: 2026-06-08
+updated: 2026-06-14
 ---
 
 ← [[note_devops_mlops_eng_dados|Voltar ao Índice]]
@@ -91,7 +91,7 @@ O aluno desenvolve **um único projeto** ao longo dos 3 encontros, evoluindo-o p
   - Com justificativa documentada (atestado, trabalho...): **100%**
   - Sem justificativa: **80%** (incentivo à presença)
 - A reposição inclui evidências em vídeo (5min para E1/E2, 10min para E3) explicando decisões técnicas.
-- **Canal de dúvidas:** alunos em reposição podem buscar suporte via Issues no repositório da turma.
+- **Canal de dúvidas:** alunos em reposição podem buscar suporte via Issues no repositório da turma, pelo grupo de Whatsapp da turma, ou diretamente comigo.
 
 ## Entrega Final
 
