@@ -246,8 +246,8 @@ Para alunos que não puderem comparecer ao Encontro 1:
 ---
 ## Checklist do Encontro
 
-- [x] Alunos têm Podman instalado e funcionando
-- [x] Alunos têm conta no GitHub
-- [x] Repositório template preparado pelo professor durante aula prática
+- [ ] Alunos têm Podman instalado e funcionando
+- [ ] Alunos têm conta no GitHub
+- [ ] Repositório template preparado pelo professor durante aula prática
 - [ ] API CNPJ Receita Federal testada e arquivos acessíveis
-- [x] Ambiente compose validado (API)
+- [ ] Ambiente compose validado (API)
