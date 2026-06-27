@@ -191,7 +191,7 @@ Não basta salvar o código; o histórico precisa ser legível e acionar automa�
 
 **Entregável:** `compose.yaml` funcional no diretório local.
 
-### Lab 1.3 — Estruturando o Repositório (30min)
+### Lab 1.3 — Estruturando o Repositório
 
 **Objetivo:** Criar repositório GitHub com estrutura profissional.
 
@@ -204,7 +204,7 @@ Não basta salvar o código; o histórico precisa ser legível e acionar automa�
 
 **Entregável:** Repositório público no GitHub com estrutura limpa.
 
-### Lab 1.4 — Pipeline Batch Completo (60min)
+### Lab 1.4 — Pipeline Batch Completo
 
 **Objetivo:** Pipeline que ingere → transforma → persiste dados.
 
@@ -251,3 +251,61 @@ Para alunos que não puderem comparecer ao Encontro 1:
 - [ ] Repositório template preparado pelo professor durante aula prática
 - [ ] API CNPJ Receita Federal testada e arquivos acessíveis
 - [ ] Ambiente compose validado (API)
+
+---
+
+# Curiosidades
+
+- **Metabase com Podman Compose:** Sabia que você pode subir uma ferramenta completa de Business Intelligence em minutos? O Metabase se integra perfeitamente ao Podman Compose. Com apenas um serviço adicional no seu `compose.yaml` conectando ao banco PostgreSQL local (ou outro banco), você consegue explorar, visualizar e criar dashboards dos dados ingeridos, sem precisar de infraestrutura na nuvem ou configurações complexas. É uma excelente forma rápida de validar o impacto visual do seu pipeline de engenharia de dados!
+
+- A flag `-d` significa **detached**, ou seja, o container será executado em segundo plano.
+- A flag `-p 3000:3000` significa que a porta 3000 do container será mapeada para a porta 3000 do host.
+- A flag `--name metabase` significa que o container será chamado de metabase.
+- A flag `metabase/metabase` significa que o container será criado a partir da imagem metabase/metabase.
+
+## Exemplo de Execução
+
+```bash
+podman run -d -p 3000:3000 --name metabase metabase/metabase
+```
+
+## Exemplo com Podman Compose
+
+```yaml
+services:
+  metabase:
+    image: metabase/metabase
+    container_name: metabase
+    ports:
+      - "3000:3000"
+    volumes:
+      - metabase-data:/metabase
+    environment:
+      - MB_DB_TYPE=postgres
+      - MB_DB_DBNAME=postgres
+      - MB_DB_USER=postgres
+      - MB_DB_PASS=postgres
+      - MB_DB_PORT=5432
+      - MB_DB_HOST=postgres
+    depends_on:
+      - postgres
+  
+  postgres:
+    image: postgres
+    container_name: postgres
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+
+volumes:
+  metabase-data:
+```
+
+```bash
+podman compose up -d
+```
