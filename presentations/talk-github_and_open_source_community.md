@@ -21,6 +21,7 @@ Open Source não é apenas uma licença de software — é um modelo de produç�
 Apresentação de Slides: 
 - [Google Slides v1](https://docs.google.com/presentation/d/1fWq87ske2XvC9e4X6el5weC81XxcqRmj)
 - [Google Slides v2](https://docs.google.com/presentation/d/17L6HM1ILCcpOqI2UY4zW1H0ZH2dnotyLXiTSEX7GdIQ)
+- [Versão criada com Kimi](https://docs.google.com/presentation/d/1ufZ4qOM6oBf0blyBpPedIP5_60V_dlAuQOLJcNi-RLQ)
 
 ## Público-alvo
 
