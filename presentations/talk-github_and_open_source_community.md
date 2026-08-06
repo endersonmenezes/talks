@@ -13,15 +13,17 @@ source:
 ---
 ## Resumo
 
+<img width="1199" height="678" alt="Screenshot 2026-08-06 at 15 57 36" src="https://github.com/user-attachments/assets/1fec6306-3a23-414b-b1b4-372c668eb6e2" />
+
 Open Source não é apenas uma licença de software — é um modelo de produção coletiva, estudado por economistas, sociólogos e cientistas da computação, que está redefinindo como o mundo cria, compartilha e sustenta tecnologia. Esta palestra conecta a base acadêmica do movimento a práticas concretas de contribuição no GitHub. Este arquivo está otimizado para sua leitura via Obsidian. Se você deseja conhecer um pouco mais do Obsidian, acesse [obsidian.md](https://obsidian.md/).
 
 > [!NOTE] Sobre este documento
 > Este arquivo nasceu de **notas pessoais e pesquisas acumuladas ao longo de muito tempo**, com o auxílio de IA como parceira na organização, estruturação e expansão do conteúdo. Tentei revisar tudo com atenção — mas se algo passou batido, **me faz um PR** 😄
 
 Apresentação de Slides: 
-- [Google Slides v1](https://docs.google.com/presentation/d/1fWq87ske2XvC9e4X6el5weC81XxcqRmj)
-- [Google Slides v2](https://docs.google.com/presentation/d/17L6HM1ILCcpOqI2UY4zW1H0ZH2dnotyLXiTSEX7GdIQ)
-- [Versão criada com Kimi](https://docs.google.com/presentation/d/1ufZ4qOM6oBf0blyBpPedIP5_60V_dlAuQOLJcNi-RLQ)
+- [Apresentação](https://docs.google.com/presentation/d/1ufZ4qOM6oBf0blyBpPedIP5_60V_dlAuQOLJcNi-RLQ)
+- [Google Slides PySul](https://docs.google.com/presentation/d/1fWq87ske2XvC9e4X6el5weC81XxcqRmj)
+- [Google Slides NOSS](https://docs.google.com/presentation/d/17L6HM1ILCcpOqI2UY4zW1H0ZH2dnotyLXiTSEX7GdIQ)
 
 ## Público-alvo
 
