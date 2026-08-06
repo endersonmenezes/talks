@@ -8,7 +8,7 @@ tags:
   - area/projects
   - resource/teaching
 created: 2026-03-17
-updated: 2026-06-14
+updated: 2026-08-06
 ---
 
 # Public Talks & Teaching Hub
@@ -55,6 +55,7 @@ Abaixo, o histórico de eventos que contei com algum papel (organizador, speaker
 
 | Date | Title | Local | Papel | Link | Status |
 |---|---|---|---|---|---|
+| 2026-08-27 | DevOpsDays Lima 2026 | Lima / Peru | Speaker — "El camino hacia la adopción de plataformas internas" (27–28/08) — com Alison Duarte | [Arquivo](events/2026-08-27_devopsdays_peru.md) · [Site](https://devopsdays.pe/) | upcoming |
 | 2026-05-30 | NOSS 2026 — Nosso Open Source Summit | Online / Brasil | Speaker — "GitHub e Comunidade Open Source" (11:00–11:40) — Trilha Iniciante | [Arquivo](events/2026-05-30_noss_2026.md) · [GitHub](https://github.com/cumbucadev/NOSS/tree/main/2026) | past |
 | 2026-05-27 | XXII Ciclo de Estudos Noturno — UniCV Maringá | UniCV, Av. H. Raccanello Filho 5950, Maringá / PR | Speaker — "Engenharia de Dados para Engenharia de Plataformas" (27/05) | [Arquivo](events/2026-05-27_unicv_ciclo_estudos_noturno.md) · [Sympla](https://www.sympla.com.br/evento/xxii-ciclo-de-estudos-noturno-inscricoes-encerradas/3329894) | past |
 | 2026-05-03 | PySul 2026 — Londrina (SENAI) | Auditório do SENAI, Londrina / PR | Speaker — "GitHub e Comunidade Open Source" (17:10–17:50) | [Arquivo](events/2026-05-03_sul_python.md) · [Site](https://sul.python.org.br/#schedule) | past |
