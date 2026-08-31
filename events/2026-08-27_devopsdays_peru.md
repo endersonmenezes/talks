@@ -1,14 +1,14 @@
 ---
 title: "DevOpsDays Lima 2026 — El camino hacia la adopción de plataformas internas"
 type: event
-status: upcoming
+status: past
 area: personal
 tags:
   - kind/event
   - area/personal
-  - status/upcoming
+  - status/past
 created: 2026-08-06
-updated: 2026-08-06
+updated: 2026-08-31
 source: "https://devopsdays.pe/"
 event:
   name: "DevOpsDays Lima 2026"
@@ -31,7 +31,7 @@ event:
 
 ## Palestras Apresentadas
 
-- *El camino hacia la adopción de plataformas internas* — Speakers: Enderson Menezes & Alison Duarte
+- *El camino hacia la adopción de plataformas internas* — Speakers: Enderson Menezes & Alison Duarte — [Talk no site oficial](https://talks.devopsdays.org/devopsdays-lima-2026/talk/9WEZHM/)
 
 ## Programação / Trilhas
 <!-- Palestras ou sessões que assistiu, com speaker quando relevante -->
@@ -40,6 +40,8 @@ event:
 <!-- Preferir links relativos para imagens em assets/ -->
 - Slides:
 - Fotos:
+  - ![Palestra no palco — foto da plateia](../assets/2026-08-27_devopsdays_peru_photo1.jpg)
+  - ![Enderson Menezes e Alison Duarte no palco](../assets/2026-08-27_devopsdays_peru_photo2.jpg)
 
 ## Observações
 
