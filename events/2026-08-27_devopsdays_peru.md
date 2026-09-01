@@ -8,7 +8,7 @@ tags:
   - area/personal
   - status/past
 created: 2026-08-06
-updated: 2026-08-31
+updated: 2026-09-01
 source: "https://devopsdays.pe/"
 event:
   name: "DevOpsDays Lima 2026"
