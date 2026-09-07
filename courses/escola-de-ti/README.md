@@ -30,7 +30,8 @@ Simula o dia a dia de trabalho e a organização de um projeto de software, dese
 | Arquivo | Descrição |
 | --- | --- |
 | [`note_escola_de_ti.md`](note_escola_de_ti.md) | 📋 **Visão Geral** — contexto, filosofia e artefatos exigidos por fase |
-| [`note_bibliography.md`](note_bibliography.md) | 📚 **Bibliografia** — 19 livros, 4 papers (DOI), guias oficiais e docs de ferramentas |
+| [`note_sdlc_spec_driven.md`](note_sdlc_spec_driven.md) | 🔄 **SDLC + Spec-Driven Development** — nota de apoio para a fase de código |
+| [`note_bibliography.md`](note_bibliography.md) | 📚 **Bibliografia** — 24 livros, 4 papers (DOI), artigos/guias oficiais e docs de ferramentas |
 | [`evaluation/avaliacao_01_artefatos.md`](evaluation/avaliacao_01_artefatos.md) | 📊 **Avaliação 1** — Artefatos gerados pelas equipes |
 | [`evaluation/avaliacao_02_avaliacao_360.md`](evaluation/avaliacao_02_avaliacao_360.md) | 📊 **Avaliação 2** — Avaliação 360 entre membros das equipes |
 | [`evaluation/avaliacao_03_clockify.md`](evaluation/avaliacao_03_clockify.md) | 📊 **Avaliação 3** — Relatórios do Clockify (horas/participação) |
