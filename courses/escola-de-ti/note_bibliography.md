@@ -12,6 +12,8 @@ tags:
   - resource/requirements
   - resource/adr
   - resource/agile
+  - resource/sdlc
+  - resource/spec-driven
   - status/active
 created: 2026-09-07
 updated: 2026-09-07
@@ -21,8 +23,9 @@ updated: 2026-09-07
 
 # Bibliografia e Referências
 
-Referências que embasam os artefatos de **planejamento** (casos de uso, UML, DER, protótipo)
-e **pré-código** (ADRs), além do contexto de **metodologia de trabalho em equipes**.
+Referências que embasam os artefatos de **planejamento** (casos de uso, UML, DER, protótipo),
+**pré-código** (ADRs) e **código** (SDLC, Spec-Driven Development), além do contexto de
+**metodologia de trabalho em equipes**.
 
 ## Livros
 
@@ -30,25 +33,25 @@ e **pré-código** (ADRs), além do contexto de **metodologia de trabalho em equ
 
 | #   | Título                                                                                                                 | Autores                   | Editora/Ano          | Link                                              | Referência ABNT                                                                                                                                                           |
 | --- | ---------------------------------------------------------------------------------------------------------------------- | ------------------------- | -------------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | *UML Distilled: A Brief Guide to the Standard Object Modeling Language*, 3rd ed.                                       | Fowler                    | Addison-Wesley, 2003 | [Amazon](https://www.amazon.com.br/dp/0321193687) | FOWLER, M. *UML Distilled: A Brief Guide to the Standard Object Modeling Language*. 3. ed. Boston: Addison-Wesley, 2003.                                                  |
-| 2   | *Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development*, 3rd ed. | Larman                    | Prentice Hall, 2004  | [Amazon](https://www.amazon.com.br/dp/0131489062) | LARMAN, C. *Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development*. 3. ed. Upper Saddle River: Prentice Hall, 2004. |
+| 1   | *UML Distilled: A Brief Guide to the Standard Object Modeling Language*, 3rd ed.                                       | Fowler                    | Addison-Wesley, 2004 | [Amazon](https://www.amazon.com.br/dp/0321193687) | FOWLER, M. *UML Distilled: A Brief Guide to the Standard Object Modeling Language*. 3. ed. Boston: Addison-Wesley, 2004.                                                  |
+| 2   | *Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development*, 3rd ed. | Larman                    | Prentice Hall, 2005  | [Amazon](https://www.amazon.com.br/dp/0131489062) | LARMAN, C. *Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development*. 3. ed. Upper Saddle River: Prentice Hall, 2005. |
 | 3   | *The Unified Modeling Language User Guide*, 2nd ed.                                                                    | Booch, Rumbaugh, Jacobson | Addison-Wesley, 2005 | [Amazon](https://www.amazon.com.br/dp/0321267974) | BOOCH, G.; RUMBAUGH, J.; JACOBSON, I. *The Unified Modeling Language User Guide*. 2. ed. Boston: Addison-Wesley, 2005.                                                    |
 
 ### Requisitos e Casos de Uso
 
 | #   | Título                           | Autores         | Editora/Ano           | Link                                              | Referência ABNT                                                                            |
 | --- | -------------------------------- | --------------- | --------------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| 4   | *Writing Effective Use Cases*    | Cockburn        | Addison-Wesley, 2000  | [Amazon](https://www.amazon.com.br/dp/0201702258) | COCKBURN, A. *Writing Effective Use Cases*. Boston: Addison-Wesley, 2001.                  |
+| 4   | *Writing Effective Use Cases*    | Cockburn        | Addison-Wesley, 2001  | [Amazon](https://www.amazon.com.br/dp/0201702258) | COCKBURN, A. *Writing Effective Use Cases*. Boston: Addison-Wesley, 2001.                  |
 | 5   | *Software Requirements*, 3rd ed. | Wiegers, Beatty | Microsoft Press, 2013 | [Amazon](https://www.amazon.com.br/dp/0735679665) | WIEGERS, K. E.; BEATTY, J. *Software Requirements*. 3. ed. Redmond: Microsoft Press, 2013. |
-| 6   | *Software Engineering*, 10th ed. | Sommerville     | Pearson, 2015         | [Amazon](https://www.amazon.com.br/dp/0133943038) | SOMMERVILLE, I. *Software Engineering*. 10. ed. Boston: Pearson, 2015.                     |
+| 6   | *Software Engineering*, 10th ed. | Sommerville     | Pearson, 2016         | [Amazon](https://www.amazon.com.br/dp/0133943038) | SOMMERVILLE, I. *Software Engineering*. 10. ed. Boston: Pearson, 2016.                     |
 
 ### Banco de Dados e Modelagem (DER)
 
-| #   | Título                                                                               | Autores                        | Editora/Ano       | Link                                              | Referência ABNT                                                                                                              |
-| --- | ------------------------------------------------------------------------------------ | ------------------------------ | ----------------- | ------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| #   | Título                                                                               | Autores                        | Editora/Ano       | Link                                              | Referência ABNT                                                                                                |
+| --- | ------------------------------------------------------------------------------------ | ------------------------------ | ----------------- | ------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
 | 7   | *Projeto de Banco de Dados: Uma Visão Prática — Edição Revisada e Ampliada*, 17ª ed. | Machado, Abreu                 | Érica, 2012       | [Amazon](https://www.amazon.com.br/dp/8536502525) | MACHADO, F. N. R.; ABREU, M. P. *Projeto de banco de dados: uma visão prática*. 17. ed. rev. e ampl. São Paulo: Érica, 2012. |
-| 8   | *Fundamentals of Database Systems*, 7th ed.                                          | Elmasri, Navathe               | Pearson, 2015     | [Amazon](https://www.amazon.com.br/dp/0133970779) | ELMASRI, R.; NAVATHE, S. B. *Fundamentals of Database Systems*. 7. ed. Boston: Pearson, 2015.                                |
-| 9   | *Database System Concepts*, 7th ed.                                                  | Silberschatz, Korth, Sudarshan | McGraw-Hill, 2019 | [Amazon](https://www.amazon.com.br/dp/0078022150) | SILBERSCHATZ, A.; KORTH, H. F.; SUDARSHAN, S. *Database System Concepts*. 7. ed. Nova York: McGraw-Hill, 2019.               |
+| 8   | *Fundamentals of Database Systems*, 7th ed.                                          | Elmasri, Navathe               | Pearson, 2016     | [Amazon](https://www.amazon.com.br/dp/0133970779) | ELMASRI, R.; NAVATHE, S. B. *Fundamentals of Database Systems*. 7. ed. Boston: Pearson, 2016.                  |
+| 9   | *Database System Concepts*, 7th ed.                                                  | Silberschatz, Korth, Sudarshan | McGraw-Hill, 2019 | [Amazon](https://www.amazon.com.br/dp/0078022150) | SILBERSCHATZ, A.; KORTH, H. F.; SUDARSHAN, S. *Database System Concepts*. 7. ed. Nova York: McGraw-Hill, 2019. |
 
 ### UX, Design e Prototipação
 
@@ -70,6 +73,16 @@ e **pré-código** (ADRs), além do contexto de **metodologia de trabalho em equ
 | 18  | *Peopleware: Productive Projects and Teams*, 3rd ed.                       | DeMarco, Lister         | Addison-Wesley, 2013   | [Amazon](https://www.amazon.com.br/dp/0321934113) | DEMARCO, T.; LISTER, T. *Peopleware: Productive Projects and Teams*. 3. ed. Boston: Addison-Wesley, 2013.                                        |
 | 19  | *Team Topologies: Organizing Business and Technology Teams for Fast Flow*  | Skelton, Pais           | IT Revolution, 2019    | [Site oficial](https://teamtopologies.com/)       | SKELTON, M.; PAIS, M. *Team Topologies: Organizing Business and Technology Teams for Fast Flow*. Portland: IT Revolution, 2019.                  |
 
+### Engenharia de Software, SDLC e Spec-Driven Development
+
+| #   | Título                                                                                     | Autores                    | Editora/Ano          | Link                                                           | Referência ABNT                                                                                                                                                         |
+| --- | ------------------------------------------------------------------------------------------ | -------------------------- | -------------------- | -------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 20  | *Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation* | Humble, Farley        | Addison-Wesley, 2010 | [Site oficial](https://www.continuousdelivery.com/)            | HUMBLE, J.; FARLEY, D. *Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation*. Boston: Addison-Wesley, 2010.                  |
+| 21  | *Accelerate: The Science of Lean Software and DevOps*                                      | Forsgren, Humble, Kim      | IT Revolution, 2018  | [Site oficial](https://itrevolution.com/product/accelerate/)   | FORSGREN, N.; HUMBLE, J.; KIM, G. *Accelerate: The Science of Lean Software and DevOps*. Portland: IT Revolution, 2018.                                                 |
+| 22  | *Refactoring: Improving the Design of Existing Code*, 2nd ed.                              | Fowler                     | Addison-Wesley, 2018 | [Site oficial](https://martinfowler.com/books/refactoring.html)| FOWLER, M. *Refactoring: Improving the Design of Existing Code*. 2. ed. Boston: Addison-Wesley, 2018.                                                                 |
+| 23  | *Fundamentals of Software Architecture: An Engineering Approach*                           | Ford, Richards             | O'Reilly, 2020       | [O'Reilly](https://www.oreilly.com/library/view/fundamentals-of-software/9781492043447/) | FORD, N.; RICHARDS, M. *Fundamentals of Software Architecture: An Engineering Approach*. Sebastopol: O'Reilly, 2020.                   |
+| 24  | *Software Engineering at Google: Lessons Learned from Programming Over Time*               | Winters, Manshreck, Wright | O'Reilly, 2020       | [Site oficial (gratuito)](https://abseil.io/resources/swe-book) | WINTERS, T.; MANSHRECK, R.; WRIGHT, H. *Software Engineering at Google: Lessons Learned from Programming Over Time*. Sebastopol: O'Reilly, 2020.                      |
+
 ---
 
 ## Papers Acadêmicos
@@ -83,13 +96,16 @@ e **pré-código** (ADRs), além do contexto de **metodologia de trabalho em equ
 
 ---
 
-## Whitepapers e Guias Oficiais
+## Whitepapers, Artigos e Guias Oficiais
 
 | #   | Título                                            | Organização          | Link                                                                       | Referência ABNT                                                                                                                                                           |
 | --- | ------------------------------------------------- | -------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | W1  | "The Scrum Guide" (2020)                          | Schwaber, Sutherland | <https://scrumguides.org/scrum-guide.html>                                 | SCHWABER, K.; SUTHERLAND, J. *The Scrum Guide*. 2020. Disponível em: <https://scrumguides.org/scrum-guide.html>. Acesso em: 7 set. 2026.                                  |
 | W2  | "Manifesto for Agile Software Development" (2001) | Beck et al.          | <https://agilemanifesto.org/iso/ptbr/manifesto.html>                       | BECK, K. et al. *Manifesto para Desenvolvimento Ágil de Software*. 2001. Disponível em: <https://agilemanifesto.org/iso/ptbr/>. Acesso em: 7 set. 2026.                   |
 | W3  | "Documenting Architecture Decisions" (2011)       | Nygard (Cognitect)   | <https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions> | NYGARD, M. *Documenting Architecture Decisions*. 2011. Disponível em: <https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions>. Acesso em: 7 set. 2026. |
+| W4  | "Understanding Spec-Driven Development: Kiro, spec-kit, and Tessl" (out/2025) | Böckeler (Thoughtworks / martinfowler.com) | <https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html> | BÖCKELER, B. Understanding Spec-Driven Development: Kiro, spec-kit, and Tessl. *martinfowler.com*, 2025. Disponível em: <https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html>. Acesso em: 7 set. 2026. |
+| W5  | Technology Radar — blip "Spec-driven development" (anel Assess, nov/2025) | Thoughtworks | <https://www.thoughtworks.com/radar/techniques/spec-driven-development> | THOUGHTWORKS. *Spec-driven development*. Technology Radar, [S.l.], nov. 2025. Disponível em: <https://www.thoughtworks.com/radar/techniques/spec-driven-development>. Acesso em: 7 set. 2026. |
+| W6  | "Software Delivery Guide"                         | Fowler               | <https://martinfowler.com/delivery.html>                                   | FOWLER, M. *Software Delivery Guide*. *martinfowler.com*, [s.d.]. Disponível em: <https://martinfowler.com/delivery.html>. Acesso em: 7 set. 2026.                        |
 
 ---
 
@@ -104,6 +120,7 @@ e **pré-código** (ADRs), além do contexto de **metodologia de trabalho em equ
 | **PlantUML** | Diagramas como código (caso de uso, classes, atividades, DER) | <https://plantuml.com/> |
 | **Mermaid** | Diagramas como código (integração com Markdown/GitHub) | <https://mermaid.js.org/> |
 | **draw.io (diagrams.net)** | Editor visual de diagramas | <https://www.drawio.com/> |
+| **GitHub Spec Kit** | Toolkit open source para Spec-Driven Development (`/speckit.specify → plan → tasks → implement`) | <https://github.com/github/spec-kit> |
 | **Clockify Help** | Central de ajuda do Clockify (registro de horas) | <https://clockify.me/help/> |
 | **Conventional Commits** | Padrão de mensagens de commit | <https://www.conventionalcommits.org/> |
 
@@ -122,9 +139,11 @@ e **pré-código** (ADRs), além do contexto de **metodologia de trabalho em equ
 - 📄 Papers: P1 (Tyree & Akerman), P2 (van Heesch et al.)
 - 📖 Docs: MADR, ADR (Nygard), ADR (Joel Parker Henderson)
 
-### Código + trabalho em equipe (metodologia)
-- 📕 Livros: #14–#19 (Scrum, estimativa, sprints, equipes)
-- 📖 Guias: W1 (Scrum Guide), W2 (Manifesto Ágil)
+### Código (SDLC, equipe e desafio SDD)
+- 📕 Livros: #14–#19 (Scrum, estimativa, sprints, equipes), #20–#21 (entrega contínua), #22 (refatoração), #23 (arquitetura), #24 (engenharia de software na prática)
+- 📖 Guias: W1 (Scrum Guide), W2 (Manifesto Ágil), W6 (Software Delivery Guide)
+- 🌱 Desafio opcional (SDD): W4 (Böckeler/Fowler), W5 (Thoughtworks Radar — Assess) + GitHub Spec Kit
+- Ver também: [[note_sdlc_spec_driven]]
 
 ### Avaliações (base da 360 e do Clockify)
 - 📄 Papers: P3 (Topping), P4 (Falchikov & Goldfinch) — fundamentam a avaliação por pares

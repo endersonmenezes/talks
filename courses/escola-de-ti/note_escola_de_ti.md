@@ -41,6 +41,8 @@ com trabalho **em equipes**, do planejamento até a entrega de código.
 - [ ] Backend da solução
 - [ ] Frontend da solução
 - [ ] DevOps (se aplicável)
+- [ ] Processo de desenvolvimento da equipe (gestão do SDLC: fluxo de trabalho, estratégia de branches, CI, definition of done) — a equipe define e justifica via ADR
+- [ ] *(desafio opcional)* Especificações que guiam a implementação (Spec-Driven Development) — ver [[note_sdlc_spec_driven]]
 
 ## 🗓️ Fluxo da Disciplina
 
