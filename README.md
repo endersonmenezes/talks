@@ -8,7 +8,7 @@ tags:
   - area/projects
   - resource/teaching
 created: 2026-03-17
-updated: 2026-09-01
+updated: 2026-09-08
 ---
 
 # Public Talks & Teaching Hub
@@ -40,6 +40,7 @@ Estes são os temas recorrentes de palestras que possuo materiais base:
 Disciplinas lecionadas com materiais, bibliografia e anotações abertas.
 
 - [DevOps, IA e Engenharia de Dados](courses/devops-ai-eng-dados/README.md)
+- [Escola de TI](courses/escola-de-ti/README.md) — disciplina de Engenharia de Software (UniCesumar, 2026): projeto em equipes, artefatos, avaliações e prova prática
 
 ---
 
