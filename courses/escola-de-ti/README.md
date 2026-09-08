@@ -43,14 +43,30 @@ Simula o dia a dia de trabalho e a organização de um projeto de software, dese
 
 ## 🗺️ Mapa de Navegação
 
+Visão geral da árvore — contexto para quem (ou o que) for explorar a pasta:
+
 ```
-note_escola_de_ti (visão geral)
-├── avaliacao_01 (artefatos)
-├── avaliacao_02 (avaliação 360)
-├── avaliacao_03 (clockify)
-├── avaliacao_04 (prova prática)
-├── avaliacao_05 (apresentação)
-└── avaliacao_06 (banca de apresentação)
+escola-de-ti/
+├── README.md                    ← você está aqui (índice)
+├── note_escola_de_ti.md         ← visão geral: filosofia, fases e artefatos exigidos
+├── note_sdlc_spec_driven.md     ← apoio de conteúdo: SDLC + Spec-Driven Development
+├── note_bibliography.md         ← bibliografia (livros, papers, docs de ferramentas)
+│
+└── evaluation/                  ← TODAS as avaliações vivem aqui
+    ├── avaliacao_01..06         ← 6 métodos de avaliação (notas e regras de cada um)
+    ├── banco_questoes_avaliacao_05.md  ← questões de exemplo (estudo p/ Avaliação 5)
+    ├── ficha_jurados_banca.md          ← ficha hackathon dos jurados (Avaliação 6)
+    │
+    └── prova_pratica/exemplos/  ← exemplos executáveis da Avaliação 4 (prova prática)
+        ├── carreira-01-sdd/     ← prova de Spec-Driven Development
+        │   ├── problema-exemplo.md     ← enunciado de exemplo (formato, não é a prova real)
+        │   ├── exemplo-resposta/       ← markdowns de spec escritos por "aluno" exemplo
+        │   ├── exemplo-codigo-gerado/  ← código gerado por agentes a partir dos specs
+        │   └── exemplo-testes/         ← suíte do professor + compose (correção containerizada)
+        ├── carreira-02-debug/   ← prova de debugging (Java; repo com erros, gabarito, containers)
+        └── carreira-03-crud/    ← prova de CRUD com juiz de testes (suíte pública + implementação de referência)
 ```
+
+**Para agents:** o material é 100% Markdown + exemplos de código executáveis. Os arquivos de avaliação (`avaliacao_0X`) são a fonte da verdade sobre notas e regras; os exemplos em `prova_pratica/exemplos/` ilustram o formato e **não refletem os problemas reais da prova**.
 
 > ⚖️ Pesos e composição da nota final: **a definir** (ver `note_evaluation.md` quando criado).
