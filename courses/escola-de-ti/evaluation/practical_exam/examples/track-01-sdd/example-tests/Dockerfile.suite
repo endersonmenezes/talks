@@ -1,0 +1,12 @@
+# Roda a suíte do professor contra o código GERADO — em container, independente
+# da máquina do professor. O build context é a pasta track-01-sdd/ (ver compose),
+# por isso a suíte enxerga ../example-generated-code/app dentro da imagem.
+FROM python:3.11-slim
+
+WORKDIR /suite
+RUN pip install --no-cache-dir pytest requests
+COPY example-tests/grading_suite.py example-tests/run_suite.py ./
+COPY example-generated-code/app /app-gerado
+
+ENV APP_DIR=/app-gerado
+CMD ["python", "run_suite.py"]

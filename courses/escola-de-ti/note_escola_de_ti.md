@@ -1,5 +1,5 @@
 ---
-title: Escola de TI — Visão Geral
+title: Escola de TI — Overview
 type: note
 status: active
 area: career

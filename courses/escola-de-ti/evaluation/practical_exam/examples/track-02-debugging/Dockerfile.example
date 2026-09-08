@@ -1,0 +1,10 @@
+# Exemplo mínimo: imagem que NÃO compila (camada 1 — compilação).
+# Na prova real, um Dockerfile multi-stage (Maven + Node) com erros nas 3 camadas.
+FROM eclipse-temurin:21-jdk
+
+WORKDIR /app
+COPY DebugExample.java .
+
+RUN javac DebugExample.java
+
+CMD ["java", "DebugExample"]

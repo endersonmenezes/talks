@@ -1,5 +1,5 @@
 ---
-title: Bibliografia e Referências — Escola de TI
+title: Bibliography and References — Escola de TI
 type: knowledge
 status: active
 area: career

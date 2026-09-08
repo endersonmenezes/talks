@@ -1,5 +1,5 @@
 ---
-title: SDLC e Spec-Driven Development — Nota de Apoio
+title: SDLC and Spec-Driven Development — Support Note
 type: note
 status: active
 area: career
@@ -71,4 +71,4 @@ estilo de código, restrições de UX) aplicada a todas as specs futuras.
 
 - Artefatos exigidos: [[note_escola_de_ti]]
 - Justificativas de decisão: ADRs (ver [[note_bibliography]])
-- Avaliação: [[avaliacao_01_artefatos]]
+- Avaliação: [[evaluation_01_artifacts]]
