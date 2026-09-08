@@ -32,9 +32,9 @@ Simula o dia a dia de trabalho e a organização de um projeto de software, dese
 | [`note_escola_de_ti.md`](note_escola_de_ti.md) | 📋 **Visão Geral** — contexto, filosofia e artefatos exigidos por fase |
 | [`note_sdlc_spec_driven.md`](note_sdlc_spec_driven.md) | 🔄 **SDLC + Spec-Driven Development** — nota de apoio para a fase de código |
 | [`note_bibliography.md`](note_bibliography.md) | 📚 **Bibliografia** — 24 livros, 4 papers (DOI), artigos/guias oficiais e docs de ferramentas |
-| [`evaluation/avaliacao_01_artefatos.md`](evaluation/avaliacao_01_artefatos.md) | 📊 **Avaliação 1** — Artefatos gerados pelas equipes |
-| [`evaluation/avaliacao_02_avaliacao_360.md`](evaluation/avaliacao_02_avaliacao_360.md) | 📊 **Avaliação 2** — Avaliação 360 entre membros das equipes |
-| [`evaluation/avaliacao_03_clockify.md`](evaluation/avaliacao_03_clockify.md) | 📊 **Avaliação 3** — Relatórios do Clockify (horas/participação) |
+| [`evaluation/avaliacao_01_artefatos.md`](evaluation/avaliacao_01_artefatos.md) | 📊 **Avaliação 1** — Artefatos (sem nota direta — base e alavanca das demais avaliações) |
+| [`evaluation/avaliacao_02_avaliacao_360.md`](evaluation/avaliacao_02_avaliacao_360.md) | 📊 **Avaliação 2** — Avaliação 360 (formulários quinzenais via WhatsApp) |
+| [`evaluation/avaliacao_03_clockify.md`](evaluation/avaliacao_03_clockify.md) | 📊 **Avaliação 3** — Relatórios do Clockify (tempo × retorno, marco de 1000h/equipe) |
 | [`evaluation/avaliacao_04_prova_pratica.md`](evaluation/avaliacao_04_prova_pratica.md) | 📊 **Avaliação 4** — Prova Prática *(a definir)* |
 | [`evaluation/avaliacao_05_apresentacao.md`](evaluation/avaliacao_05_apresentacao.md) | 📊 **Avaliação 5** — Apresentação *(a definir)* |
 | [`evaluation/avaliacao_06_banca_apresentacao.md`](evaluation/avaliacao_06_banca_apresentacao.md) | 📊 **Avaliação 6** — Banca de Apresentação (auditório Dona Etelvina) |
