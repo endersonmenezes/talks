@@ -1,0 +1,19 @@
+# Correção containerizada da Carreira 01 — app do aluno + suíte do professor.
+# Roda igual em qualquer máquina (Docker ou Podman) — a correção não depende
+# do ambiente do professor.
+#
+# Docker:  docker compose -f compose-testes.yaml up --build --abort-on-container-exit
+# Podman:  podman-compose -f compose-testes.yaml up --build --abort-on-container-exit
+
+services:
+  app:
+    build: ../exemplo-codigo-gerado/app
+    ports: ["8000:8000"]
+
+  suite:
+    build:
+      context: .
+      dockerfile: Dockerfile.suite
+    depends_on: [app]
+    environment:
+      - APP_URL=http://app:8000

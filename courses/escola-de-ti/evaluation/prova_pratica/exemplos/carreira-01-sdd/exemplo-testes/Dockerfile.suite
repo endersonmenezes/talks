@@ -1,0 +1,9 @@
+# Roda a suíte do professor contra o app do aluno (container independente da máquina do professor).
+FROM python:3.11-slim
+
+WORKDIR /suite
+RUN pip install --no-cache-dir pytest requests
+COPY suite_professor.py run_suite.py .
+
+# Espera a API do app ficar pronta e roda a suíte (APP_URL vem do compose).
+CMD ["python", "run_suite.py"]
