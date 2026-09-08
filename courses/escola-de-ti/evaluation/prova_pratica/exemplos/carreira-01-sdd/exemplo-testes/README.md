@@ -1,5 +1,9 @@
 # Correção da Carreira 01 — exemplo real executado (correção multi-agentica)
 
+> ⚠️ **Tudo nesta pasta é um EXEMPLO de formato**: o problema, o contrato, os
+> casos de teste e os valores da prova real são **diferentes**. A suíte real é
+> publicada apenas na correção (categorias B e C não são reveladas antes).
+
 Esta pasta documenta e executa a correção da prova de **Spec-Driven Development (SDD + TDD)**
 do repositório-modelo `../exemplo-resposta/` (o "aluno"). Tudo aqui foi de fato executado.
 
@@ -37,7 +41,7 @@ podman-compose -f compose-testes.yaml up --build --abort-on-container-exit
 
 | Categoria | O que mede | Resultado |
 | --- | --- | --- |
-| **A — Contrato REST** (7 testes) | UC1–UC4 do spec.md: endpoints, status codes, listagens | ✅ passou |
+| **A — Contrato REST** (6 testes) | UC1–UC4 do spec.md: endpoints, status codes, listagens | ✅ passou |
 | **B — Bordas escondidas** (6 testes) | limites exatos (1h/3h), adjacência, 1min de sobreposição, arredondamento, cancelamento | ✅ passou |
 | **C — Requisito oculto** (1 teste) | enunciado pede `telefone` do cliente; **spec.md não tem UC de clientes** | ❌ falhou (proposital) |
 | **D — SDLC estático** (4 testes) | Dockerfile, README com docker/podman, requirements, testes do próprio aluno | ✅ passou |
