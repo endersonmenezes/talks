@@ -1,0 +1,6 @@
+# Lixo de execução local (o que se gera ao rodar pytest/uvicorn neste diretório)
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.env
