@@ -44,7 +44,7 @@ Entrega via repositório Git (local ou remoto, conforme infraestrutura da sala).
 que, passadas por um modelo de IA fixo, geram o código. Avalia-se a capacidade de **especificar**.
 
 **Dinâmica**:
-1. Recebe um **problema fechado** (exemplo: *Sistema de Reservas de Quadras* — ver exemplos).
+1. Recebe um **problema fechado** — que **inclui seu contrato publicado** (rotas, campos, status codes; ver o formato em [`exemplos/carreira-01-sdd/problema-exemplo.md`](prova_pratica/exemplos/carreira-01-sdd/problema-exemplo.md)). O problema da prova real é **diferente** do exemplo.
 2. Cria um repositório contendo **apenas arquivos `.md`**, com estrutura SDD+TDD:
    - `constitution.md` — regras persistentes do projeto (padrões, estilo, restrições)
    - `spec.md` — requisitos, casos de uso, critérios de aceite
@@ -67,17 +67,29 @@ dos `.md` em si (critério E):
 | **A — Contrato REST** | Suíte categoria A: endpoints, status codes e comportamento dos UC1–UC4 do enunciado | **30** |
 | **B — Casos de borda** | Suíte categoria B: limites exatos, adjacência, arredondamento, conflitos mínimos (testes **não revelados** antes da prova) | **25** |
 | **C — Requisitos do enunciado** | Suíte categoria C: tudo o que o enunciado pede **além dos casos de uso óbvios** (testes escondidos; expõe spec incompleta) | **15** |
-| **D — SDLC do código gerado** | Suíte categoria D: Dockerfile com EXPOSE/CMD, README com instruções (docker/podman), dependências declaradas, testes do próprio aluno presentes | **15** |
-| **E — Qualidade dos `.md` entregues** | Conferência estrutural: 5 arquivos presentes; `spec.md` com critérios de aceite por UC; `tests.md` cobrindo os cenários prometidos; `plan.md` com decisões; `tasks.md` decomposto | **15** |
+| **D — SDLC do código gerado** | Suíte categoria D: Dockerfile com EXPOSE/CMD, README com instruções de execução, **manifesto de dependências do stack declarado** (requirements.txt, package.json, pom.xml, go.mod…), testes do próprio aluno presentes no código gerado | **15** |
+| **E — Qualidade dos `.md` entregues** | **3 pts por arquivo bem criado, máximo de 5 arquivos pontuáveis** (qualquer `.md` do repo conta — não há lista obrigatória de arquivos) | **15** |
 
-**Detalhamento do critério E** (0–15): 3 pts por arquivo presente e estruturado
-(`constitution`, `spec`, `plan`, `tests`, `tasks`) + 3 pts se `tests.md` cobre
-**todos** os cenários de borda que a suíte (categoria B) exercita — ou seja,
-o aluno que "adivinha" as bordas certas ganha os 3 pts; quem omite, não.
+**Detalhamento do critério E** (0–15): cada arquivo `.md` presente e "bem criado" vale 3 pts, até o teto de 5 arquivos (15 pts).
+**"Bem criado" é verificado mecanicamente** por um checklist mínimo publicado com a prova — sem julgamento de estilo. Exemplo de checklist (adaptável por problema):
+
+| Tipo de arquivo | Critério mínimo mecânico |
+| --- | --- |
+| `constitution.md` | ≥ 1 regra operacional (padrão, restrição ou convenção) |
+| `spec.md` | ≥ 1 critério de aceite **mensurável** por caso de uso/requisito |
+| `plan.md` | ≥ 1 decisão técnica com justificativa |
+| `tests.md` | ≥ 1 caso de borda por regra de negócio |
+| `tasks.md` | ≥ 3 tarefas decompostas |
+| *outro `.md`* | conteúdo estruturado que instrua a geração de código (headers + especificação concreta) |
+
+> O aluno decide quantos arquivos criar e como nomeá-los — pontuam os 5 melhores que satisfizerem o checklist.
 
 **Restrição explícita**: o repositório entregue deve conter **somente `.md`**
-(o código é gerado **na correção**). Se houver código-fonte entregue pelo aluno,
-a carreira está invalidada → **nota 0 na prova** (regra comum 5).
+(o código é gerado **na correção**). Inserir **snippets curtos** de código para
+elucidar o agente é aceitável; **implementações completas** em blocos de código
+são rejeitadas pelo prompt de correção do professor (a carreira avalia *especificar*,
+não *codar de improviso*). Se o essencial da solução vier como código pronto nos
+`.md`, a carreira está invalidada → **nota 0 na prova** (regra comum 5).
 
 ---
 
@@ -162,6 +174,10 @@ linguagem/framework de sua escolha.
 ---
 
 ## 📁 Exemplos
+
+> ⚠️ **Aviso**: tudo nesta pasta existe para elucidar o **formato** da prova.
+> Os problemas, contratos, suítes, valores e campos dos exemplos **não são os
+> da prova real** — cada aplicação da prova usa problema e contrato próprios.
 
 Subpasta [`prova_pratica/exemplos/`](prova_pratica/exemplos/) com exemplos **simples**,
 só para mostrar a dinâmica de cada carreira:
