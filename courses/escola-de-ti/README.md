@@ -35,7 +35,7 @@ Simula o dia a dia de trabalho e a organização de um projeto de software, dese
 | [`evaluation/avaliacao_01_artefatos.md`](evaluation/avaliacao_01_artefatos.md) | 📊 **Avaliação 1** — Artefatos (sem nota direta — base e alavanca das demais avaliações) |
 | [`evaluation/avaliacao_02_avaliacao_360.md`](evaluation/avaliacao_02_avaliacao_360.md) | 📊 **Avaliação 2** — Avaliação 360 (formulários quinzenais via WhatsApp) |
 | [`evaluation/avaliacao_03_clockify.md`](evaluation/avaliacao_03_clockify.md) | 📊 **Avaliação 3** — Relatórios do Clockify (tempo × retorno, marco de 1000h/equipe) |
-| [`evaluation/avaliacao_04_prova_pratica.md`](evaluation/avaliacao_04_prova_pratica.md) | 📊 **Avaliação 4** — Prova Prática *(a definir)* |
+| [`evaluation/avaliacao_04_prova_pratica.md`](evaluation/avaliacao_04_prova_pratica.md) | 📊 **Avaliação 4** — Prova Prática (3 carreiras: SDD, Debugging, CRUD com juiz de testes) |
 | [`evaluation/avaliacao_05_apresentacao.md`](evaluation/avaliacao_05_apresentacao.md) | 📊 **Avaliação 5** — Apresentação *(a definir)* |
 | [`evaluation/avaliacao_06_banca_apresentacao.md`](evaluation/avaliacao_06_banca_apresentacao.md) | 📊 **Avaliação 6** — Banca de Apresentação (auditório Dona Etelvina) |
 
