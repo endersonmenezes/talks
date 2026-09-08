@@ -36,8 +36,10 @@ Simula o dia a dia de trabalho e a organização de um projeto de software, dese
 | [`evaluation/avaliacao_02_avaliacao_360.md`](evaluation/avaliacao_02_avaliacao_360.md) | 📊 **Avaliação 2** — Avaliação 360 (formulários quinzenais via WhatsApp) |
 | [`evaluation/avaliacao_03_clockify.md`](evaluation/avaliacao_03_clockify.md) | 📊 **Avaliação 3** — Relatórios do Clockify (tempo × retorno, marco de 1000h/equipe) |
 | [`evaluation/avaliacao_04_prova_pratica.md`](evaluation/avaliacao_04_prova_pratica.md) | 📊 **Avaliação 4** — Prova Prática (3 carreiras: SDD, Debugging, CRUD com juiz de testes) |
-| [`evaluation/avaliacao_05_apresentacao.md`](evaluation/avaliacao_05_apresentacao.md) | 📊 **Avaliação 5** — Apresentação *(a definir)* |
-| [`evaluation/avaliacao_06_banca_apresentacao.md`](evaluation/avaliacao_06_banca_apresentacao.md) | 📊 **Avaliação 6** — Banca de Apresentação (auditório Dona Etelvina) |
+| [`evaluation/avaliacao_05_apresentacao.md`](evaluation/avaliacao_05_apresentacao.md) | 📊 **Avaliação 5** — Apresentação com o professor (60% grupo / 40% direcionadas) |
+| [`evaluation/banco_questoes_avaliacao_05.md`](evaluation/banco_questoes_avaliacao_05.md) | ❓ **Banco de questões de exemplo** (estudo para a Avaliação 5) |
+| [`evaluation/avaliacao_06_banca_apresentacao.md`](evaluation/avaliacao_06_banca_apresentacao.md) | 📊 **Avaliação 6** — Banca de Apresentação (auditório Dona Etelvina, com jurados) |
+| [`evaluation/ficha_jurados_banca.md`](evaluation/ficha_jurados_banca.md) | 🏆 **Ficha dos jurados** (estilo hackathon) |
 
 ## 🗺️ Mapa de Navegação
 
