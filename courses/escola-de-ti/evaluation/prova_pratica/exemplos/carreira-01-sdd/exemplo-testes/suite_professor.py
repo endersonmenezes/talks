@@ -1,14 +1,15 @@
 """Suíte do professor — correção da Carreira 01 (SDD + TDD).
 
-Roda contra a API em execução (APP_URL; default http://localhost:8000).
-Na correção real, executa DENTRO do container — ver compose-testes.yaml —
-para não depender da máquina do professor.
+Roda contra a API em execução (APP_URL; default http://localhost:8000),
+em container (ver compose-testes.yaml) — independe da máquina do professor.
 
 Categorias:
   A — Contrato REST (spec.md, UC1–UC4)
   B — Casos de borda "escondidos" (NÃO estão em tests.md do aluno)
-  C — Requisito do enunciado que ficou FORA do spec.md (risco SDD: clientes/telefone)
-  D — Checagens SDLC estáticas no repositório entregue
+  C — Requisito do enunciado que ficou FORA do spec.md (risco SDD)
+  D — Checagens SDLC estáticas no código GERADO (APP_DIR)
+
+⚠️ Exemplo ilustrativo: problema, contrato e suíte reais são diferentes.
 """
 
 import os
@@ -19,9 +20,13 @@ import pytest
 import requests
 
 BASE = os.environ.get("APP_URL", "http://localhost:8000").rstrip("/")
-APP_DIR = pathlib.Path(__file__).resolve().parent.parent / "exemplo-codigo-gerado" / "app"
+APP_DIR = pathlib.Path(
+    os.environ.get(
+        "APP_DIR",
+        pathlib.Path(__file__).resolve().parent.parent / "exemplo-codigo-gerado" / "app",
+    )
+)
 
-# Janela fixa no futuro para os testes de data
 DAY = (datetime.now() + timedelta(days=30)).strftime("%Y-%m-%d")
 
 
@@ -62,12 +67,12 @@ class TestContrato:
         assert r.status_code == 201
         assert r.json()["price"] == 200.0
 
-    def test_a5_cancelar_some_da_consulta(self, court):
+    def test_a4_cancelar_some_da_consulta(self, court):
         b = _book(court["id"], _dt("10:00"), _dt("11:00")).json()
         requests.delete(f"{BASE}/bookings/{b['id']}")
         assert requests.get(f"{BASE}/bookings/{b['id']}").status_code == 404
 
-    def test_a6_listar_por_quadra_filtra(self, court):
+    def test_a5_listar_por_quadra_filtra(self, court):
         _book(court["id"], _dt("10:00"), _dt("11:00"))
         outra = requests.post(
             f"{BASE}/courts", json={"name": "Outra", "pricePerHour": 50.0}
@@ -77,7 +82,7 @@ class TestContrato:
         assert r.status_code == 200
         assert all(b["courtId"] == court["id"] for b in r.json())
 
-    def test_a7_listar_por_dia_so_ativas(self, court):
+    def test_a6_listar_por_dia_so_ativas(self, court):
         ativa = _book(court["id"], _dt("10:00"), _dt("11:00")).json()
         cancelada = _book(court["id"], _dt("14:00"), _dt("15:00")).json()
         requests.delete(f"{BASE}/bookings/{cancelada['id']}")
@@ -133,23 +138,35 @@ class TestRequisitoOculto:
 
 
 # ------------------------------------------------------- D. Checagens SDLC estáticas
+# Verificam o código GERADO (APP_DIR), nunca o repo .md do aluno.
+
+MANIFESTOS = ("requirements.txt", "package.json", "pom.xml", "go.mod", "Cargo.toml",
+              "Gemfile", "composer.json")
+
+PADROES_TESTE = ("def test_", "it(", "describe(", "@Test", "func Test", "test(")
+
 
 class TestSDLC:
     def test_d1_dockerfile_com_expose_e_cmd(self):
         df = (APP_DIR / "Dockerfile").read_text()
         assert "EXPOSE" in df and "CMD" in df
 
-    def test_d2_readme_com_instrucoes_container(self):
+    def test_d2_readme_com_instrucoes_de_execucao(self):
         readme = (APP_DIR / "README.md").read_text().lower()
-        assert "docker" in readme or "podman" in readme
+        assert any(p in readme for p in ("docker", "podman", "run", "start", "uvicorn", "npm"))
 
-    def test_d3_requirements_declara_fastapi(self):
-        req = (APP_DIR / "requirements.txt").read_text().lower()
-        assert "fastapi" in req
+    def test_d3_manifesto_de_dependencias_do_stack(self):
+        """Stack é livre (definida no plan.md do aluno): aceita qualquer manifesto
+        de dependências comum, desde que presente e não vazio."""
+        assert any((APP_DIR / m).exists() and (APP_DIR / m).stat().st_size > 0
+                   for m in MANIFESTOS), f"nenhum manifesto encontrado em {APP_DIR}"
 
     def test_d4_aluno_entregou_proprios_testes(self):
-        """tests.md promete 11 cenários — o repo deve conter testes do aluno."""
-        test_file = APP_DIR / "test_app.py"
-        assert test_file.exists()
-        n = test_file.read_text().count("def test_")
-        assert n >= 11, f"só {n} testes encontrados (tests.md prometia T1–T11)"
+        """tests.md promete 11 cenários — o código gerado deve conter testes
+        automatizáveis equivalentes (contagem agnóstica de linguagem)."""
+        casos = 0
+        for f in APP_DIR.rglob("*test*"):
+            if f.is_file() and f.suffix in (".py", ".js", ".ts", ".java", ".go", ".rs"):
+                conteudo = f.read_text()
+                casos += sum(conteudo.count(p) for p in PADROES_TESTE)
+        assert casos >= 11, f"só {casos} casos de teste encontrados (tests.md prometia T1–T11)"
