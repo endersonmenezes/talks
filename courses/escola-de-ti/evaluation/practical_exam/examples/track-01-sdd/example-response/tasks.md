@@ -1,3 +1,17 @@
+---
+title: "Tasks — Decomposição"
+type: knowledge
+status: done
+area: resources
+resource: talks
+tags:
+  - kind/knowledge
+  - area/resources
+  - resource/talks
+  - status/done
+created: 2026-09-07
+updated: 2026-09-07
+---
 # Tasks — Decomposição
 
 - [ ] T1 — Scaffolding: `main.py` com app FastAPI vazia e `test_app.py` com fixture do client

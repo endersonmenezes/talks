@@ -1,3 +1,17 @@
+---
+title: "Constitution — Regras Persistentes do Projeto"
+type: knowledge
+status: done
+area: resources
+resource: talks
+tags:
+  - kind/knowledge
+  - area/resources
+  - resource/talks
+  - status/done
+created: 2026-09-07
+updated: 2026-09-07
+---
 # Constitution — Regras persistentes do projeto
 
 1. Código e identificadores em **inglês**; documentação em português.

@@ -1,3 +1,17 @@
+---
+title: "Spec — Sistema de Reservas de Quadras"
+type: knowledge
+status: done
+area: resources
+resource: talks
+tags:
+  - kind/knowledge
+  - area/resources
+  - resource/talks
+  - status/done
+created: 2026-09-07
+updated: 2026-09-07
+---
 # Spec — Sistema de Reservas de Quadras
 
 ## Casos de uso

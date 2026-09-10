@@ -34,7 +34,7 @@ event:
 
 ## Palestras Apresentadas
 
-- [Engenharia de Dados para Engenharia de Plataformas](talk-data-engineering-to-platform-engineering.md) — 27/05/2026 — Speaker: Enderson Menezes
+- [Engenharia de Dados para Engenharia de Plataformas](../presentations/talk-data-engineering-to-platform-engineering.md) — 27/05/2026 — Speaker: Enderson Menezes
 
 ## Programação / Trilhas
 

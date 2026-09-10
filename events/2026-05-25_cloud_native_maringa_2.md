@@ -34,7 +34,7 @@ event:
 
 ## Palestras Apresentadas
 
-- [Hospedando uma Aplicação em Casa?](talk-self-hosting-own-app.md) — 25/05/2026 — 21:00–21:45 (45 min) — Speaker: Enderson Menezes — Palestra #3
+- [Hospedando uma Aplicação em Casa?](../workshops/note_self_hosting_own_app.md) — 25/05/2026 — 21:00–21:45 (45 min) — Speaker: Enderson Menezes — Palestra #3
 
 ## Programação / Trilhas
 

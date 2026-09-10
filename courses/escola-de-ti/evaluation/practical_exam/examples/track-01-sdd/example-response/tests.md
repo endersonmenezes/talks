@@ -1,3 +1,17 @@
+---
+title: "Tests — Cenários de Teste (TDD)"
+type: knowledge
+status: done
+area: resources
+resource: talks
+tags:
+  - kind/knowledge
+  - area/resources
+  - resource/talks
+  - status/done
+created: 2026-09-07
+updated: 2026-09-07
+---
 # Tests — Cenários de teste (TDD)
 
 Cada item abaixo vira um teste em `test_app.py`. Os casos de borda são obrigatórios.

@@ -179,7 +179,7 @@ linguagem/framework de sua escolha.
 > Os problemas, contratos, suítes, valores e campos dos exemplos **não são os
 > da prova real** — cada aplicação da prova usa problema e contrato próprios.
 
-Subpasta [`practical_exam/examples/`](practical_exam/examples/) com exemplos **simples**,
+Subpasta `practical_exam/examples/` com exemplos **simples**,
 só para mostrar a dinâmica de cada carreira:
 - `track-01-sdd/` — problema de exemplo + mini-resposta-modelo (os 5 `.md`) + **exemplo de correção multi-agentica executada**: `example-generated-code/` (janelas isoladas → app consolidado + PROVENANCE.md) e `example-tests/` (suíte do professor A/B/C/D, com compose Docker/Podman — resultado real: 16 passaram, 1 falha proposital de requisito oculto)
 - `track-02-debugging/` — arquivo Java minúsculo com 5 erros propositais + gabarito com jornada de debug verificada + exemplo de Container/Compose

@@ -22,10 +22,10 @@ Também mantenho meu perfil no [Sessionize](https://sessionize.com/endersonmenez
 
 Esta pasta está dividida nos seguintes temas:
 
-- **[`events/`](events/)**: Registros e materiais de eventos que participei ou palestrei.
-- **[`presentations/`](presentations/)**: Tópicos e apresentações base que costumo ministrar.
-- **[`courses/`](courses/)**: Materiais didáticos completos de cursos e disciplinas universitárias ou de pós-graduação.
-- **[`workshops/`](workshops/)**: Trilhas práticas e laboratórios estilo *hands-on*.
+- **[`events/`](events/README.md)**: Registros e materiais de eventos que participei ou palestrei.
+- **[`presentations/`](presentations/README.md)**: Tópicos e apresentações base que costumo ministrar.
+- **`courses/`**: Materiais didáticos completos de cursos e disciplinas universitárias ou de pós-graduação.
+- **[`workshops/`](workshops/README.md)**: Trilhas práticas e laboratórios estilo *hands-on*.
 
 ---
 

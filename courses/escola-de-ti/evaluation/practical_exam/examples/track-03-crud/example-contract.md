@@ -1,3 +1,17 @@
+---
+title: "Contrato de Exemplo — API de Tarefas"
+type: knowledge
+status: done
+area: resources
+resource: talks
+tags:
+  - kind/knowledge
+  - area/resources
+  - resource/talks
+  - status/done
+created: 2026-09-07
+updated: 2026-09-07
+---
 	# Contrato de exemplo — API de Tarefas (Gerenciador de Tarefas)
 
 > Este é o tipo de documento que o aluno recebe na Carreira 03.

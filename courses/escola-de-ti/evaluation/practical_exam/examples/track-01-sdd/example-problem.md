@@ -1,3 +1,17 @@
+---
+title: "Problema de Exemplo — Sistema de Reservas de Quadras"
+type: knowledge
+status: done
+area: resources
+resource: talks
+tags:
+  - kind/knowledge
+  - area/resources
+  - resource/talks
+  - status/done
+created: 2026-09-07
+updated: 2026-09-07
+---
 # Problema de exemplo — Sistema de Reservas de Quadras
 
 > Este é o enunciado recebido pelo aluno na Carreira 01 (SDD + TDD).

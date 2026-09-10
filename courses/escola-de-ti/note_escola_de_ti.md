@@ -50,5 +50,5 @@ com trabalho **em equipes**, do planejamento até a entrega de código.
 
 ## 🔗 Ligações
 
-- Avaliações: ver pasta [`evaluation/`](evaluation/)
+- Avaliações: ver pasta `evaluation/`
 - Bibliografia: ver [`note_bibliography.md`](note_bibliography.md)

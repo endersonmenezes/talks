@@ -1,3 +1,17 @@
+---
+title: "Plan — Arquitetura e Decisões"
+type: knowledge
+status: done
+area: resources
+resource: talks
+tags:
+  - kind/knowledge
+  - area/resources
+  - resource/talks
+  - status/done
+created: 2026-09-08
+updated: 2026-09-08
+---
 # Plan — Arquitetura e decisões
 
 ## Stack

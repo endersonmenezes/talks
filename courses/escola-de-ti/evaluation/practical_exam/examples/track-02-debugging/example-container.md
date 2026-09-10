@@ -1,3 +1,17 @@
+---
+title: "Container + Compose na Carreira 02"
+type: knowledge
+status: done
+area: resources
+resource: talks
+tags:
+  - kind/knowledge
+  - area/resources
+  - resource/talks
+  - status/done
+created: 2026-09-08
+updated: 2026-09-08
+---
 # Container + Compose na Carreira 02 — como a dinâmica funciona
 
 Na prova real, a app quebrada (Spring Boot + React) é distribuída como um projeto

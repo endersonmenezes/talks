@@ -1,3 +1,17 @@
+---
+title: "Gabarito — DebugExample.java"
+type: knowledge
+status: done
+area: resources
+resource: talks
+tags:
+  - kind/knowledge
+  - area/resources
+  - resource/talks
+  - status/done
+created: 2026-09-08
+updated: 2026-09-08
+---
 # Gabarito — DebugExample.java
 
 Exemplo **mínimo** só para mostrar a dinâmica da Carreira 02. Na prova real, os erros
