@@ -1,14 +1,14 @@
 ---
 title: "KCD Brasil 2026 — Modelando seu IDP: A fundação da Engenharia de Plataforma"
-type: event
-status: upcoming   # upcoming | active | past
+type: talk
+status: active
 area: personal
 tags:
-  - kind/event
+  - kind/talk
   - area/personal
-  - status/upcoming
+  - status/active
 created: 2026-09-01
-updated: 2026-09-01
+updated: 2026-09-08
 source: "https://community2.cncf.io/kcd-brasil/"
 event:
   name: "KCD Brasil 2026"

@@ -1,14 +1,14 @@
 ---
 title: "Dia da Internet Segura 2020"
-type: event
-status: past
+type: talk
+status: done
 area: personal
 tags:
-  - kind/event
+  - kind/talk
   - area/personal
-  - status/past
+  - status/done
 created: 2020-02-11
-updated: 2026-05-13
+updated: 2026-09-08
 source: "https://www.meetup.com/pt-br/developerparana/events/268510043/?eventOrigin=group_events_list"
 event:
   name: "Dia da Internet Segura 2020"

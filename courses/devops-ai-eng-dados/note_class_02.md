@@ -5,12 +5,15 @@ status: active
 area: career
 project: devops-mlops-eng-dados
 tags:
+  - kind/knowledge
   - resource/devops
   - resource/kubernetes
   - resource/ci-cd
   - resource/data-engineering
+  - project/devops-mlops-eng-dados
+  - status/active
 created: 2026-04-15
-updated: 2026-06-27
+updated: 2026-09-08
 ---
 # Artefatos do Encontro
 

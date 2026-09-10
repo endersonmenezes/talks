@@ -1,14 +1,14 @@
 ---
 title: "DevParaná na OnSafety — Maringá"
-type: event
-status: past
+type: talk
+status: done
 area: personal
 tags:
-  - kind/event
+  - kind/talk
   - area/personal
-  - status/past
+  - status/done
 created: 2024-05-23
-updated: 2026-05-13
+updated: 2026-09-08
 source: "https://www.meetup.com/pt-br/developerparana/events/300994634/?eventOrigin=group_events_list"
 event:
   name: "DevParaná na OnSafety — Maringá"

@@ -1,4 +1,3 @@
-
 ---
 title: "Engenharia de Dados para Engenharia de Plataformas: Um Modelo de Dados de Referência para Portais Internos de Desenvolvedores"
 type: talk

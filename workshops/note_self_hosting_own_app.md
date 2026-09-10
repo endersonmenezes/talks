@@ -1,14 +1,14 @@
 ---
 title: Hospedando um Portal em casa? Experiência, desafios e aprendizados!
-type: workshop
+type: knowledge
 status: active
 area: personal
 tags:
-  - kind/workshop
+  - kind/knowledge
   - area/personal
   - status/active
 created: 2026-05-25
-updated: 2026-05-26
+updated: 2026-09-08
 source:
 ---
 

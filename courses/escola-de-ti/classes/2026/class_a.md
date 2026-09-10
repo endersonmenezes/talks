@@ -11,7 +11,7 @@ tags:
   - resource/teaching
   - status/active
 created: 2026-09-07
-updated: 2026-09-07
+updated: 2026-09-08
 ---
 # Turma A — 2026
 
@@ -23,7 +23,7 @@ updated: 2026-09-07
 4. Nexus Athlete
 5. Sauf BR
 6. Synapse
-7. Uniclass
+7. Uniclass -> Staggy
 8. Vitryne
 
 > Detalhes por equipe (membros, artefatos entregues, relatórios de Clockify, avaliações 360, notas) serão registrados aqui ou em notas filhas por equipe.

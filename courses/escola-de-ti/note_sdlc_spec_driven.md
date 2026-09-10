@@ -12,7 +12,7 @@ tags:
   - resource/spec-driven
   - status/active
 created: 2026-09-07
-updated: 2026-09-07
+updated: 2026-09-08
 ---
 # SDLC e Spec-Driven Development — Nota de Apoio
 

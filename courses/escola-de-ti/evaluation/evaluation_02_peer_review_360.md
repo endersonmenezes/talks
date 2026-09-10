@@ -10,7 +10,7 @@ tags:
   - project/escola-de-ti
   - status/active
 created: 2026-09-07
-updated: 2026-09-07
+updated: 2026-09-08
 ---
 # Avaliação 02 — Avaliação 360 (entre membros das equipes)
 

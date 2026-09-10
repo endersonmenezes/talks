@@ -7,6 +7,7 @@ tags:
   - kind/index
   - area/projects
   - resource/teaching
+  - status/active
 created: 2026-03-17
 updated: 2026-09-08
 ---
@@ -31,7 +32,7 @@ Esta pasta está dividida nos seguintes temas:
 ## 📢 Palestras e Tópicos (Presentations)
 Estes são os temas recorrentes de palestras que possuo materiais base:
 
-- [GitHub and Open Source Community](presentations/talk-github_and_open_source_community.md)
+- [GitHub and Open Source Community](presentations/talk_github_and_open_source_community.md)
 - [Data Engineering to Platform Engineering](presentations/talk-data-engineering-to-platform-engineering.md)
 
 ---
@@ -47,7 +48,7 @@ Disciplinas lecionadas com materiais, bibliografia e anotações abertas.
 ## 🛠️ Workshops e Hands-on (Workshops)
 Materiais práticos, trilhas e laboratórios estilo *hands-on*.
 
-- [Self-Hosting: Hospedando um Portal em Casa](workshops/workshop-self-hosting-own-app.md)
+- [Self-Hosting: Hospedando um Portal em Casa](workshops/note_self_hosting_own_app.md)
 
 ---
 

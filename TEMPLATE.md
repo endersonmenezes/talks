@@ -1,14 +1,15 @@
 ---
 title: "TÍTULO DO EVENTO"
-type: event
-status: active   # upcoming | active | past
+type: talk
+# status: upcoming | active | past
+status: active
 area: personal
 tags:
-  - kind/event
+  - kind/talk
   - area/personal
   - status/active
 created: 2026-05-11
-updated: 2026-05-11
+updated: 2026-09-08
 source: "https://..."
 event:
   name: "Nome oficial do evento"

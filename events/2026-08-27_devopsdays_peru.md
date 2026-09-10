@@ -1,14 +1,14 @@
 ---
 title: "DevOpsDays Lima 2026 — El camino hacia la adopción de plataformas internas"
-type: event
-status: past
+type: talk
+status: done
 area: personal
 tags:
-  - kind/event
+  - kind/talk
   - area/personal
-  - status/past
+  - status/done
 created: 2026-08-06
-updated: 2026-09-01
+updated: 2026-09-08
 source: "https://devopsdays.pe/"
 event:
   name: "DevOpsDays Lima 2026"

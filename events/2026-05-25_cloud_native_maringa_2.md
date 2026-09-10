@@ -1,14 +1,14 @@
 ---
 title: "Cloud Native Maringá #2 — Semana Acadêmica do SENAC"
-type: event
-status: past
+type: talk
+status: done
 area: personal
 tags:
-  - kind/event
+  - kind/talk
   - area/personal
-  - status/past
+  - status/done
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-09-08
 source: "https://ocgroups.dev/cncf/group/sq5vsqs/event/u6uyhcn"
 event:
   name: "Cloud Native Maringá #2 — Semana Acadêmica do SENAC"

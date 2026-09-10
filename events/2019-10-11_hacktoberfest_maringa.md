@@ -1,14 +1,14 @@
 ---
 title: "Hacktoberfest Maringá 2019"
-type: event
-status: past
+type: talk
+status: done
 area: personal
 tags:
-  - kind/event
+  - kind/talk
   - area/personal
-  - status/past
+  - status/done
 created: 2019-10-11
-updated: 2026-05-13
+updated: 2026-09-08
 source: "https://www.meetup.com/pt-br/developerparana/events/265404132/?eventOrigin=group_events_list"
 event:
   name: "Hacktoberfest Maringá 2019"
@@ -30,7 +30,7 @@ event:
 
 ## Palestras Apresentadas
 
-- *Como começar a contribuir com projetos open source?* — Versão original da talk [GitHub e Comunidade Open Source](talk-github_and_open_source_community.md)
+- *Como começar a contribuir com projetos open source?* — Versão original da talk [GitHub e Comunidade Open Source](talk_github_and_open_source_community.md)
   > "Sendo iniciando em programação, também é possível contribuir com projetos de código aberto na internet, o importante é não ter medo de errar e acreditar na comunidade em que você faz parte."
 
 ## Programação / Trilhas
