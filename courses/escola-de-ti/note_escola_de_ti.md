@@ -46,7 +46,10 @@ com trabalho **em equipes**, do planejamento até a entrega de código.
 
 ## 🗓️ Fluxo da Disciplina
 
-> A definir — calendário de entregas, sprints/iterações e encontros por turma.
+### Calendário
+- 07/10/2026 - Prova Prática (2 aulas com internet)
+- 03/11/2026 - Avaliação
+- 01 ou 02 de Dezembro (Auditório) - ⚠️ Aguardando reservas do auditório.
 
 ## 🔗 Ligações
 
