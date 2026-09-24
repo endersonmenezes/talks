@@ -9,7 +9,7 @@ tags:
   - resource/teaching
   - status/active
 created: 2026-03-17
-updated: 2026-09-08
+updated: 2026-09-23
 ---
 
 # Public Talks & Teaching Hub
@@ -57,7 +57,9 @@ Abaixo, o histórico de eventos que contei com algum papel (organizador, speaker
 
 | Date | Title | Local | Papel | Link | Status |
 |---|---|---|---|---|---|
-| 2026-09-26 | KCD Brasil 2026 — São Paulo | São Paulo / Brasil | Speaker — "Modelando seu IDP: A fundação da Engenharia de Plataforma" | [Arquivo](events/2026-09-26_kcd_brasil_sao_paulo.md) · [Site](https://community2.cncf.io/kcd-brasil/) | upcoming |
+| 2026-10-24 | DevOpsDays Florianópolis 2026 | Centro Universitário Cesusc (UNICESUSC), Florianópolis / SC | Speaker — "Modelando seu IDP: A fundação da Engenharia de Plataforma" | [Arquivo](events/2026-10-24_devopsdays_floripa.md) · [Site](https://devopsdays.org/events/2026-florianopolis/welcome/) | upcoming |
+| 2026-09-26 | KCD Brasil 2026 — São Paulo | Nubank Spark, São Paulo / Brasil | Speaker — "Modelando seu IDP: A fundação da Engenharia de Plataforma" — com Alison Duarte | [Arquivo](events/2026-09-26_kcd_brasil_sao_paulo.md) · [Site](https://community2.cncf.io/events/details/cncf-kcd-brasil-presents-kcd-sao-paulo-2026/) | upcoming |
+| 2026-09-23 | X SECOMP 2026 — UEM Maringá | Pró Reitoria de Ensino (B33), UEM, Maringá / PR | Speaker — "GitHub e Comunidade Open Source" (14:00–15:00, quarta-feira) | [Arquivo](events/2026-09-23_secomp_uem.md) · [Site](https://www.secompuem.com.br/) | past |
 | 2026-08-27 | DevOpsDays Lima 2026 | Lima / Peru | Speaker — "El camino hacia la adopción de plataformas internas" (27–28/08) — com Alison Duarte | [Arquivo](events/2026-08-27_devopsdays_peru.md) · [Site](https://devopsdays.pe/) · [Talk](https://talks.devopsdays.org/devopsdays-lima-2026/talk/9WEZHM/) | past |
 | 2026-05-30 | NOSS 2026 — Nosso Open Source Summit | Online / Brasil | Speaker — "GitHub e Comunidade Open Source" (11:00–11:40) — Trilha Iniciante | [Arquivo](events/2026-05-30_noss_2026.md) · [GitHub](https://github.com/cumbucadev/NOSS/tree/main/2026) | past |
 | 2026-05-27 | XXII Ciclo de Estudos Noturno — UniCV Maringá | UniCV, Av. H. Raccanello Filho 5950, Maringá / PR | Speaker — "Engenharia de Dados para Engenharia de Plataformas" (27/05) | [Arquivo](events/2026-05-27_unicv_ciclo_estudos_noturno.md) · [Sympla](https://www.sympla.com.br/evento/xxii-ciclo-de-estudos-noturno-inscricoes-encerradas/3329894) | past |

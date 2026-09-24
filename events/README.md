@@ -10,7 +10,7 @@ tags:
   - resource/talks
   - status/active
 created: 2026-09-10
-updated: 2026-09-10
+updated: 2026-09-23
 ---
 # Events — Histórico de Participações
 
@@ -28,6 +28,8 @@ Registro das participações em eventos (palestras, organização, mediação) a
 - [[2026-05-27_unicv_ciclo_estudos_noturno]] — XXII Ciclo de Estudos Noturno (UniCV Maringá)
 - [[2026-05-30_noss_2026]] — NOSS 2026 — Nosso Open Source Summit
 - [[2026-08-27_devopsdays_peru]] — DevOpsDays Lima 2026
+- [[2026-09-23_secomp_uem]] — X SECOMP 2026 (UEM Maringá)
 - [[2026-09-26_kcd_brasil_sao_paulo]] — KCD Brasil 2026 (São Paulo)
+- [[2026-10-24_devopsdays_floripa]] — DevOpsDays Florianópolis 2026
 
 Voltar ao índice geral: [[../README|Public Talks & Teaching Hub]]
