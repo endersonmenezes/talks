@@ -39,20 +39,20 @@ Cada pasta/ano guarda o registro das equipes daquele período. Materiais das equ
 
 **Terça**
 
-19:00 - Equipe 1
-19:15  - Equipe 2
-19:30 - Equipe 3
-19:45 - Equipe 4
-20:00 - Equipe 5
-20:15 - Equipe 6
-20:30 - Equipe 7
+- 19:00 - Equipe 1
+- 19:15  - Equipe 2
+- 19:30 - Equipe 3
+- 19:45 - Equipe 4
+- 20:00 - Equipe 5
+- 20:15 - Equipe 6
+- 20:30 - Equipe 7
 
 **Quarta**
 
-19:00 - Equipe 8
-19:15 - Horário Extra
-19:30 - Horário Extra
-19:45 - Horário Extra
-20:00 - Horário Extra
-20:15 - Horário Extra
-20:30 - Horário Extra
+- 19:00 - Equipe 8
+- 19:15 - Horário Extra
+- 19:30 - Horário Extra
+- 19:45 - Horário Extra
+- 20:00 - Horário Extra
+- 20:15 - Horário Extra
+- 20:30 - Horário Extra
