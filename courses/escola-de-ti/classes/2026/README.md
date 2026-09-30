@@ -56,3 +56,8 @@ Cada pasta/ano guarda o registro das equipes daquele período. Materiais das equ
 - 20:00 - Horário Extra
 - 20:15 - Horário Extra
 - 20:30 - Horário Extra
+
+## Calendário
+- 07/10/2026 - Prova Prática (2 aulas com internet)
+- 03/11/2026 - Avaliação
+- 01 ou 02 de Dezembro (Auditório) - ⚠️ Aguardando reservas do auditório.
