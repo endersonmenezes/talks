@@ -17,3 +17,7 @@ target/
 
 # ---- Provas Escola de TI (futuros repositórios template — não versionar no repo de talks) ----
 courses/escola-de-ti/evaluation/practical_exam/provas-2026/
+
+# ---- exam-escola-ti: será submódulo próprio (criado manualmente pelo owner) ----
+# Até lá, fora do versionamento do talks.
+courses/escola-de-ti/exam-escola-ti/

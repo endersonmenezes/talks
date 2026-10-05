@@ -10,7 +10,7 @@ tags:
   - project/escola-de-ti
   - status/active
 created: 2026-09-07
-updated: 2026-09-08
+updated: 2026-10-05
 ---
 # Escola de TI — Visão Geral
 
@@ -49,4 +49,7 @@ com trabalho **em equipes**, do planejamento até a entrega de código.
 ## 🔗 Ligações
 
 - Avaliações: ver pasta `evaluation/`
+- Prova 01/2026 (3 tracks, modelos de referência): `evaluation/practical_exam/provas-2026/`
+- **exam-escola-ti** (POC do sistema de provas: template único + pasta do ano
+  via issueops — em avaliação): `../exam-escola-ti/`
 - Bibliografia: ver [`note_bibliography.md`](note_bibliography.md)
