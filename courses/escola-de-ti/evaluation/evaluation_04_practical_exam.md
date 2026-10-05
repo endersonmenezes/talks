@@ -10,17 +10,41 @@ tags:
   - project/escola-de-ti
   - status/active
 created: 2026-09-07
-updated: 2026-09-08
+updated: 2026-10-05
 ---
 # Avaliação 04 — Prova Prática (3 carreiras)
 
-Prova **individual**, **sem internet**, em ambiente controlado. Duração: **1 período de aulas**
-(2 aulas sequenciais — as 2 primeiras ou as 2 últimas, dependendo da turma).
+Prova **individual**, **consulta permitida com rastreabilidade obrigatória**
+(ver "Consulta e fontes" abaixo), em ambiente controlado. Duração: **1 período de aulas**
+(2 aulas sequenciais — as 2 primeiras ou as 2 últimas, dependendo da turma;
+na aplicação da Prova 01, **1h30**).
 Entrega via repositório Git (local ou remoto, conforme infraestrutura da sala).
 
 > 🛤️ **Cada aluno escolhe 1 carreira** e entrega tudo dentro dela. As carreiras testam
 > competências distintas — especificar, diagnosticar, implementar — e o aluno alinha
 > a prova à sua trajetória.
+
+## 📚 Consulta e fontes (regra comum às 3 carreiras)
+
+A prova é **consulta permitida**: o aluno pode consultar sites, documentação e
+usar IA **como consulta** — o que não pode é entregar conteúdo **sem
+rastreabilidade**. Regras:
+
+1. **Site/documentação consultado** → registre em `FONTES.md`: URL, o que foi
+   consultado e onde o conteúdo aparece no entregável.
+2. **IA como consulta** (perguntas, explicações, revisão, trechos copiados) → a
+   conversa deve ser **compartilhada (Share) e pública**, com o link registrado
+   em `FONTES.md` indicando onde o conteúdo foi usado. O professor pode exigir o
+   link a qualquer momento; o aluno deve saber explicar qualquer trecho que a
+   IA produziu.
+3. **IA como agente** (executa, escreve arquivos, roda comandos no lugar do
+   aluno) → proibida e zera a prova — nas carreiras 02 e 03 o objeto da prova é
+   justamente esse trabalho; na carreira 01 a geração a partir das specs é feita
+   pelo professor na correção.
+4. Conteúdo gerado/copiado de LLM **sem declaração** configura plágio → nota 0
+   (regra comum 5). A rastreabilidade não é burocracia: é o que diferencia
+   consulta legítima de cópia.
+
 
 ## 🧮 Regras Comuns de Nota (valem para as 3 carreiras)
 
@@ -33,7 +57,9 @@ Entrega via repositório Git (local ou remoto, conforme infraestrutura da sala).
    **reexecutando a suíte/comando** — não por negociação.
 4. **Arredondamento**: nota final da prova arredondada para o inteiro mais próximo
    (0,5 arredonda para cima).
-5. **Zera a prova (nota 0)**: cópia/plágio entre alunos; acesso à internet durante a prova;
+5. **Zera a prova (nota 0)**: cópia/plágio entre alunos; **consulta sem rastreabilidade**
+   (site consultado sem registro em `FONTES.md`; uso de IA — mesmo como consulta —
+   sem conversa compartilhada e pública indicada; IA usada como **agente**);
    violação da restrição da carreira 01 (código-fonte entregue fora do previsto).
 
 ---

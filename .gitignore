@@ -14,3 +14,6 @@ target/
 # ---- Ambiente / SO ----
 .env
 .DS_Store
+
+# ---- Provas Escola de TI (futuros repositórios template — não versionar no repo de talks) ----
+courses/escola-de-ti/evaluation/practical_exam/provas-2026/
