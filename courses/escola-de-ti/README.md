@@ -11,7 +11,7 @@ tags:
   - resource/teaching
   - status/active
 created: 2026-09-07
-updated: 2026-09-07
+updated: 2026-10-06
 ---
 # Escola de TI
 
@@ -40,6 +40,8 @@ Simula o dia a dia de trabalho e a organização de um projeto de software, dese
 | [`evaluation/question_bank_evaluation_05.md`](evaluation/question_bank_evaluation_05.md) | ❓ **Banco de questões de exemplo** (estudo para a Avaliação 5) |
 | [`evaluation/evaluation_06_jury_presentation.md`](evaluation/evaluation_06_jury_presentation.md) | 📊 **Avaliação 6** — Banca de Apresentação (auditório Dona Etelvina, com jurados) |
 | [`evaluation/jury_scorecard.md`](evaluation/jury_scorecard.md) | 🏆 **Ficha dos jurados** (estilo hackathon) |
+| [`evaluation/exam-escola-ti/`](evaluation/exam-escola-ti/) | 🧪 **Sistema de provas** (submódulo público) — template único + pastas de ano `exams/<ano>/<track>/` via issueops |
+| [`evaluation/teacher-escola-ti/`](evaluation/teacher-escola-ti/) | 🔒 **Material do docente** (submódulo privado) — decisões, riscos, roteiros de operação |
 | [`classes/2026/README.md`](classes/2026/README.md) | 🏫 **Turmas 2026** — registro das equipes por turma (A: 8 equipes, B: 7 equipes) |
 
 ## 🗺️ Mapa de Navegação
@@ -57,6 +59,9 @@ escola-de-ti/
     ├── evaluation_01..06      ← 6 métodos de avaliação (notas e regras de cada um)
     ├── question_bank_evaluation_05.md  ← questões de exemplo (estudo p/ Avaliação 5)
     ├── jury_scorecard.md          ← ficha hackathon dos jurados (Avaliação 6)
+    ├── exam-escola-ti/            ← (submódulo público) sistema de provas:
+    │                                template único + exams/<ano>/<track>/ (overlay no dia da prova)
+    ├── teacher-escola-ti/         ← (submódulo privado) material do docente
     │
     └── practical_exam/examples/  ← exemplos executáveis da Avaliação 4 (prova prática)
         ├── track-01-sdd/     ← prova de Spec-Driven Development
@@ -72,6 +77,6 @@ classes/2026/                     ← registro das turmas de 2026
 └── class_b.md                   ← 7 equipes (Cromocard, Lhamalog, Hospet, Mindliner, Busca Peça, Steely, Jaguara)
 ```
 
-**Para agents:** o material é 100% Markdown + exemplos de código executáveis. Os arquivos de avaliação (`evaluation_0X`) são a fonte da verdade sobre notas e regras; os exemplos em `practical_exam/examples/` ilustram o formato e **não refletem os problemas reais da prova**.
+**Para agents:** o material é 100% Markdown + exemplos de código executáveis. Os arquivos de avaliação (`evaluation_0X`) são a fonte da verdade sobre notas e regras; os exemplos em `practical_exam/examples/` ilustram o formato e **não refletem os problemas reais da prova** — as provas reais são publicadas como `exams/<ano>/<track>/` no submódulo `exam-escola-ti` **apenas no dia da prova**.
 
 > ⚖️ Pesos e composição da nota final: **a definir** (ver `note_evaluation.md` quando criado).
