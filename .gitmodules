@@ -1,3 +1,6 @@
 [submodule "courses/escola-de-ti/evaluation/exam-escola-ti"]
 	path = courses/escola-de-ti/evaluation/exam-escola-ti
 	url = git@github.com:endersonmenezes/exam-escola-ti.git
+[submodule "courses/escola-de-ti/evaluation/teacher-escola-ti"]
+	path = courses/escola-de-ti/evaluation/teacher-escola-ti
+	url = git@github.com:endersonmenezes/teacher-escola-ti.git
