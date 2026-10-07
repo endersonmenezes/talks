@@ -11,7 +11,7 @@ tags:
   - resource/teaching
   - status/active
 created: 2026-09-07
-updated: 2026-10-06
+updated: 2026-10-07
 ---
 # Escola de TI
 
@@ -40,8 +40,8 @@ Simula o dia a dia de trabalho e a organização de um projeto de software, dese
 | [`evaluation/question_bank_evaluation_05.md`](evaluation/question_bank_evaluation_05.md) | ❓ **Banco de questões de exemplo** (estudo para a Avaliação 5) |
 | [`evaluation/evaluation_06_jury_presentation.md`](evaluation/evaluation_06_jury_presentation.md) | 📊 **Avaliação 6** — Banca de Apresentação (auditório Dona Etelvina, com jurados) |
 | [`evaluation/jury_scorecard.md`](evaluation/jury_scorecard.md) | 🏆 **Ficha dos jurados** (estilo hackathon) |
-| [`evaluation/exam-escola-ti/`](evaluation/exam-escola-ti/) | 🧪 **Sistema de provas** (submódulo público) — template único + pastas de ano `exams/<ano>/<track>/` via issueops |
-| [`evaluation/teacher-escola-ti/`](evaluation/teacher-escola-ti/) | 🔒 **Material do docente** (submódulo privado) — decisões, riscos, roteiros de operação |
+| [`evaluation/exam-escola-ti/`](evaluation/exam-escola-ti/) | 🧪 **Sistema de provas** (submódulo público, v1.1.0) — template único + pastas de ano `exams/<ano>/<track>/` via issueops |
+| [`evaluation/teacher-escola-ti/`](evaluation/teacher-escola-ti/) | 🔒 **Material do docente** (submódulo privado, v1.0.0) — decisões, riscos, roteiros, **suítes escondidas** (`suites/<ano>/<track>/`) e guia de correção |
 | [`classes/2026/README.md`](classes/2026/README.md) | 🏫 **Turmas 2026** — registro das equipes por turma (A: 8 equipes, B: 7 equipes) |
 
 ## 🗺️ Mapa de Navegação
@@ -61,7 +61,8 @@ escola-de-ti/
     ├── jury_scorecard.md          ← ficha hackathon dos jurados (Avaliação 6)
     ├── exam-escola-ti/            ← (submódulo público) sistema de provas:
     │                                template único + exams/<ano>/<track>/ (overlay no dia da prova)
-    ├── teacher-escola-ti/         ← (submódulo privado) material do docente
+    ├── teacher-escola-ti/         ← (submódulo privado) material do docente:
+    │                                decisões, suítes escondidas, guia de correção
     │
     └── practical_exam/examples/  ← exemplos executáveis da Avaliação 4 (prova prática)
         ├── track-01-sdd/     ← prova de Spec-Driven Development
