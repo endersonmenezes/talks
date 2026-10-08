@@ -1,14 +1,14 @@
 ---
 title: "KCD Brasil 2026 — Modelando seu IDP: A fundação da Engenharia de Plataforma"
 type: talk
-status: active
+status: done
 area: personal
 tags:
   - kind/talk
   - area/personal
-  - status/active
+  - status/done
 created: 2026-09-01
-updated: 2026-09-23
+updated: 2026-10-08
 source: "https://community2.cncf.io/events/details/cncf-kcd-brasil-presents-kcd-sao-paulo-2026/"
 event:
   name: "KCD São Paulo 2026 (KCD Brasil)"
@@ -41,6 +41,13 @@ event:
 <!-- Preferir links relativos para imagens em assets/ -->
 - Slides:
 - Fotos:
+  - ![Enderson Menezes apresentando — slide de abertura](../assets/2026-09-26_kcd_brasil_photo1.jpeg)
+  - ![Alison Duarte apresentando — slide de abertura](../assets/2026-09-26_kcd_brasil_photo2.jpeg)
+  - ![Enderson Menezes ao microfone durante a palestra](../assets/2026-09-26_kcd_brasil_photo3.jpg)
+  - ![Alison Duarte no pódio com a sala cheia](../assets/2026-09-26_kcd_brasil_photo4.jpg)
+  - ![Sala cheia durante a sessão de perguntas](../assets/2026-09-26_kcd_brasil_photo5.jpg)
+  - ![Enderson Menezes e Alison Duarte recebendo os troféus de speaker do KCD São Paulo 2026](../assets/2026-09-26_kcd_brasil_photo6.jpg)
+  - ![Plateia do KCD São Paulo 2026](../assets/2026-09-26_kcd_brasil_photo7.jpeg)
 - Banner do site (capturado em 23/09/2026): ![KCD São Paulo 2026 — banner do site](../assets/2026-09-26_kcd_brasil_banner.png)
 
 ## Observações
