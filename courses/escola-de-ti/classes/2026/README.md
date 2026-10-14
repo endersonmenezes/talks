@@ -64,7 +64,7 @@ Cada pasta/ano guarda o registro das equipes daquele período. Materiais das equ
 
 **Próxima fase (nov/2026)**
 - 02/11/2026 (seg) - Todas as equipes deverão comentar uma Issue aberta no repositório `talks` com os artefatos em Git e commitados. Nao importa o formato do arquivo.
-- 03/11/2026 (ter) — Avaliação 5: Apresentação com o professor (60% grupo / 40% direcionadas) — 1ª aula
+- 03/11/2026 (ter) — Avaliação 5: Apresentação com o professor (60% grupo / 40% direcionadas) — 15-25 minutos por Equipe.
 - nov/2026 — Devolutivas da prova (issue por aluno) + notas da Avaliação 4 fechadas — pré-requisito p/ fechamento do semestre
 
 **Apresentações finais — CONFIRMADO ✅**
