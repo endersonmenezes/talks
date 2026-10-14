@@ -11,7 +11,7 @@ tags:
   - resource/teaching
   - status/active
 created: 2026-09-07
-updated: 2026-09-07
+updated: 2026-10-14
 ---
 # Turmas 2026
 
@@ -58,8 +58,21 @@ Cada pasta/ano guarda o registro das equipes daquele período. Materiais das equ
 - 20:30 - Horário Extra
 
 ## Calendário
-- 07/10/2026 - Prova Prática (2 aulas com internet)
-- 03/11/2026 - Avaliação
-- 01 ou 02 de Dezembro (Auditório) - ⚠️ Aguardando reservas do auditório.
+
+**Concluído**
+- 07/10/2026 (qua) — Prova Prática — Avaliação 4 (2 aulas com internet) ✅
+
+**Próxima fase (nov/2026)**
+- 03/11/2026 (ter) — Avaliação 5: Apresentação com o professor (60% grupo / 40% direcionadas) — 1ª aula
+- nov/2026 — Devolutivas da prova (issue por aluno) + notas da Avaliação 4 fechadas — pré-requisito p/ fechamento do semestre
+
+**Apresentações finais — CONFIRMADO ✅**
+- **01/12/2026 (ter)** — Banca de Apresentação — Avaliação 6 — **Auditório Dona Etelvina, Bloco 7** (proposta: Turma A, 19h)
+- **02/12/2026 (qua)** — Banca de Apresentação — Avaliação 6 — **Auditório Dona Etelvina, Bloco 7** (proposta: Turma B, 19h)
+
+> Reserva do auditório **confirmada** (Dona Etelvina, Bloco 7). Divisão por
+> dia ainda é proposta (Turma A na terça, Turma B na quarta) — ajustar conforme
+> a logística das equipes. Formato: pitch 7 min + 5 min de perguntas
+> ([Avaliação 6](evaluation_06_jury_presentation.md)).
 
 Ausências: enderson.candido@unicesumar.edu.br
