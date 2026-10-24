@@ -8,7 +8,7 @@ tags:
   - area/personal
   - status/active
 created: 2026-05-20
-updated: 2026-05-26
+updated: 2026-10-24
 source:
 ---
 
@@ -18,9 +18,9 @@ Um modelo de dados de referência para a construção de Portais Internos de Des
 
 O modelo se baseia em duas referências principais: [Backstage](https://backstage.io) para a arquitetura de entidades central (Componente, API, Sistema, Domínio, Recurso, Grupo, Usuário, Modelo) e o modelo Blueprint do [Port.io](https://port.io) para o conceito de Blueprints como entidades de dados configuráveis. No entanto, este modelo de dados é independente de ferramentas — ele pode ser implementado no Backstage, Port.io, Cortex, OpsLevel ou qualquer IdP que suporte um modelo de dados configurável.
 
-<img width="1253" height="614" alt="Screenshot 2026-08-06 at 15 56 07" src="https://github.com/user-attachments/assets/14c49800-0307-450c-984d-a65c041fedbc" />
+![Capa da apresentação — Engenharia de Dados para Engenharia de Plataformas](../assets/2026-10-24_data_engineering_to_platform_engineering_screenshot.png)
 
-[Apresentação](https://docs.google.com/presentation/d/1rkjz42K5zjV1LMy6sSS55qATgR3PeMYPtdK8BgnEJoE)
+[Apresentação](https://docs.google.com/presentation/d/1pP40nRDZNKj3r4iheuJBA3MPWuf0bGoo8726rmwhxD4)
 
 ---
 ## Bora lá!
