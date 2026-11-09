@@ -19,10 +19,10 @@ Espaço dedicado às turmas de 2026 da disciplina **Escola de TI** (Engenharia d
 
 ## Turmas
 
-| Turma | Equipes | Nota |
-| --- | --- | --- |
-| [Turma A](class_a.md) | 8 | — |
-| [Turma B](class_b.md) | 7 | — |
+| Turma | Equipes | Entrega issue #3 | Nota |
+| --- | --- | --- | --- |
+| [Turma A](class_a.md) | 8 | ✅ 8/8 | — |
+| [Turma B](class_b.md) | 7 | ✅ 7/7 | — |
 
 ## Estrutura
 

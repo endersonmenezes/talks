@@ -9,7 +9,7 @@ tags:
   - resource/teaching
   - status/active
 created: 2026-03-17
-updated: 2026-10-08
+updated: 2026-11-09
 ---
 
 # Public Talks & Teaching Hub
@@ -57,14 +57,15 @@ Abaixo, o histórico de eventos que contei com algum papel (organizador, speaker
 
 | Date | Title | Local | Papel | Link | Status |
 |---|---|---|---|---|---|
+| 2026-10-26 | WorkInTech 2026 — The Science Behind Communities | UniCesumar (Bloco 7, Sala 36), Maringá / PR | Speaker — "The Science Behind Communities" (26–27/10) | [Site](https://www.workintech.com.br/workshops/science-behind-communities) | past |
 | 2026-10-24 | DevOpsDays Florianópolis 2026 | Centro Universitário Cesusc (UNICESUSC), Florianópolis / SC | Speaker — "Modelando seu IDP: A fundação da Engenharia de Plataforma" | [Arquivo](events/2026-10-24_devopsdays_floripa.md) · [Site](https://devopsdays.org/events/2026-florianopolis/welcome/) | upcoming |
 | 2026-09-26 | KCD Brasil 2026 — São Paulo | Nubank Spark, São Paulo / Brasil | Speaker — "Modelando seu IDP: A fundação da Engenharia de Plataforma" — com Alison Duarte | [Arquivo](events/2026-09-26_kcd_brasil_sao_paulo.md) · [Site](https://community2.cncf.io/events/details/cncf-kcd-brasil-presents-kcd-sao-paulo-2026/) | past |
 | 2026-09-23 | X SECOMP 2026 — UEM Maringá | Pró Reitoria de Ensino (B33), UEM, Maringá / PR | Speaker — "GitHub e Comunidade Open Source" (14:00–15:00, quarta-feira) | [Arquivo](events/2026-09-23_secomp_uem.md) · [Site](https://www.secompuem.com.br/) | past |
 | 2026-08-27 | DevOpsDays Lima 2026 | Lima / Peru | Speaker — "El camino hacia la adopción de plataformas internas" (27–28/08) — com Alison Duarte | [Arquivo](events/2026-08-27_devopsdays_peru.md) · [Site](https://devopsdays.pe/) · [Talk](https://talks.devopsdays.org/devopsdays-lima-2026/talk/9WEZHM/) | past |
 | 2026-05-30 | NOSS 2026 — Nosso Open Source Summit | Online / Brasil | Speaker — "GitHub e Comunidade Open Source" (11:00–11:40) — Trilha Iniciante | [Arquivo](events/2026-05-30_noss_2026.md) · [GitHub](https://github.com/cumbucadev/NOSS/tree/main/2026) | past |
 | 2026-05-27 | XXII Ciclo de Estudos Noturno — UniCV Maringá | UniCV, Av. H. Raccanello Filho 5950, Maringá / PR | Speaker — "Engenharia de Dados para Engenharia de Plataformas" (27/05) | [Arquivo](events/2026-05-27_unicv_ciclo_estudos_noturno.md) · [Sympla](https://www.sympla.com.br/evento/xxii-ciclo-de-estudos-noturno-inscricoes-encerradas/3329894) | past |
-| 2026-05-03 | PySul 2026 — Londrina (SENAI) | Auditório do SENAI, Londrina / PR | Speaker — "GitHub e Comunidade Open Source" (17:10–17:50) | [Arquivo](events/2026-05-03_sul_python.md) · [Site](https://sul.python.org.br/#schedule) | past |
 | 2026-05-25 | Cloud Native Maringá #2 — Semana Acadêmica do SENAC | SENAC Maringá, Av. Colombo 6225, Maringá / PR | Organizador + Speaker — "Hospedando uma Aplicação em Casa?" (21:00–21:45) | [Arquivo](events/2026-05-25_cloud_native_maringa_2.md) · [ocgroups.dev](https://ocgroups.dev/cncf/group/sq5vsqs/event/u6uyhcn) | past |
+| 2026-05-03 | PySul 2026 — Londrina (SENAI) | Auditório do SENAI, Londrina / PR | Speaker — "GitHub e Comunidade Open Source" (17:10–17:50) | [Arquivo](events/2026-05-03_sul_python.md) · [Site](https://sul.python.org.br/#schedule) | past |
 | 2026-03-26 | DevParaná na Estrada 2026 — Cianorte | Teatro Cândido Garcia (UNIPAR), Cianorte / PR | Speaker — "GitHub e Comunidade Open Source" | [Arquivo](events/2026-03-26_devparana_na_estrada_cianorte.md) | past |
 | 2026-03-25 | DevParaná na Estrada 2026 — Umuarama | Teatro Neiva Pavan Machado Garcia (UNIPAR), Umuarama / PR | Speaker — "GitHub e Comunidade Open Source" | [Arquivo](events/2026-03-25_devparana_na_estrada_umuarama.md) · [Slides](https://docs.google.com/presentation/d/1fWq87ske2XvC9e4X6el5weC81XxcqRmj) | past |
 | 2024-05-23 | DevParaná na OnSafety — Maringá | OnSafety — Av. Centenário, Maringá / PR | Speaker — "Papel do SRE" | [Arquivo](events/2024-05-23_devparana_onsafety_maringa.md) | past |
