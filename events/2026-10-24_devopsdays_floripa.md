@@ -1,14 +1,14 @@
 ---
 title: "DevOpsDays Florianópolis 2026 — Modelando seu IDP: A fundação da Engenharia de Plataforma"
 type: talk
-status: active
+status: done
 area: personal
 tags:
   - kind/talk
   - area/personal
-  - status/active
+  - status/done
 created: 2026-09-23
-updated: 2026-09-23
+updated: 2026-11-09
 source: "https://devopsdays.org/events/2026-florianopolis/welcome/"
 event:
   name: "DevOpsDays Florianópolis 2026"
