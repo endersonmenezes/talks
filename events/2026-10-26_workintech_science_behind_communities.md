@@ -41,6 +41,11 @@ event:
 <!-- Preferir links relativos para imagens em assets/ -->
 - Slides:
 - Fotos:
+  - ![Enderson Menezes apresentando — slide "Open Container Initiative"](../assets/2026-10-26_workintech_science_behind_communities_photo1.jpeg)
+
+## Publicações
+- [Post no LinkedIn — Enderson Menezes](https://lnkd.in/p/d4S2CNzK)
+- [Post no Instagram](https://www.instagram.com/p/DfiO7iemS_p/)
 
 ## Observações
 

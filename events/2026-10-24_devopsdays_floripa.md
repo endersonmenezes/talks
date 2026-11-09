@@ -41,7 +41,13 @@ event:
 <!-- Preferir links relativos para imagens em assets/ -->
 - Slides:
 - Fotos:
+  - ![Foto oficial do evento com os participantes no palco](../assets/2026-10-24_devopsdays_floripa_photo1.jpeg)
+  - ![Enderson Menezes apresentando — slide "Engenharia de Dados para Engenharia de Plataformas"](../assets/2026-10-24_devopsdays_floripa_photo2.jpeg)
 - Banner do site (capturado em 23/09/2026): ![DevOpsDays Florianópolis 2026 — banner do site](../assets/2026-10-24_devopsdays_floripa_banner.png)
+
+## Publicações
+- [Post no LinkedIn — Enderson Menezes](https://lnkd.in/p/d4S2CNzK)
+- [Post no Instagram](https://www.instagram.com/p/DfiO7iemS_p/)
 
 ## Observações
 
