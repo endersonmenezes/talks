@@ -64,7 +64,7 @@ Cada pasta/ano guarda o registro das equipes daquele período. Materiais das equ
 
 **Próxima fase (nov/2026)**
 - 02/11/2026 (seg) - Todas as equipes deverão comentar uma Issue aberta no repositório `talks` com os artefatos em Git e commitados. Nao importa o formato do arquivo.
-- ~~03/11/2026 (ter)~~ — Avaliação 5 **remarcada** — tempestade com rajadas de vento atingiu Maringá na madrugada de 02/11 (sem danos humanos; Defesa Civil Nacional mobilizada — [fonte: gov.br/MDR](https://www.gov.br/mdr/pt-br/noticias/governo-federal-mobilizado-para-ajudar-maringa)). Novas datas: **10, 11, 17 e 18/11** (ter/qua), semana de 23/11 preservada para provas → ver [calendário completo](../evaluation/evaluation_05_calendar.md) (ordem das equipes ainda não sorteada).
+- ~~03/11/2026 (ter)~~ — Avaliação 5 **remarcada** — tempestade com rajadas de vento atingiu Maringá na madrugada de 02/11 (sem danos humanos; Defesa Civil Nacional mobilizada — [fonte: gov.br/MDR](https://www.gov.br/mdr/pt-br/noticias/governo-federal-mobilizado-para-ajudar-maringa)). Novas datas: **10, 11, 17 e 18/11** (ter/qua), semana de 23/11 preservada para provas → ver [calendário completo](../../evaluation/evaluation_05_calendar.md) (ordem das equipes ainda não sorteada).
 - nov/2026 — Devolutivas da prova (issue por aluno) + notas da Avaliação 4 fechadas — pré-requisito p/ fechamento do semestre
 
 **Apresentações finais — CONFIRMADO ✅**
@@ -74,6 +74,6 @@ Cada pasta/ano guarda o registro das equipes daquele período. Materiais das equ
 > Reserva do auditório **confirmada** (Dona Etelvina, Bloco 7). Divisão por
 > dia ainda é proposta (Turma A na terça, Turma B na quarta) — ajustar conforme
 > a logística das equipes. Formato: pitch 7 min + 5 min de perguntas
-> ([Avaliação 6](evaluation_06_jury_presentation.md)).
+> ([Avaliação 6](../../evaluation/evaluation_06_jury_presentation.md)).
 
 Ausências: enderson.candido@unicesumar.edu.br
