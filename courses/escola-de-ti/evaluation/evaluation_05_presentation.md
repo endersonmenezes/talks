@@ -10,7 +10,7 @@ tags:
   - project/escola-de-ti
   - status/active
 created: 2026-09-07
-updated: 2026-09-08
+updated: 2026-11-17
 ---
 # Avaliação 05 — Apresentação (equipe + professor)
 
@@ -49,7 +49,9 @@ apoiada em evidências.
   resposta "de cabeça" sem evidência pode ser pontuada parcialmente — critério
   explicitado pelo professor no momento (a avaliação é negociada ao vivo).
 
-## 🔄 Dinâmica sugerida
+## 🔄 Dinâmica
 
-> A definir com o calendário ~15 min por equipe (apresentação curta
-> + perguntas), ordem das equipes sorteada, membros presentes obrigatoriamente.
+**50 minutos por equipe**, incluindo apresentação curta, demonstração e
+perguntas. Datas, horários e ordem sorteada estão no
+[calendário oficial](evaluation_05_calendar.md). Membros presentes
+obrigatoriamente.
