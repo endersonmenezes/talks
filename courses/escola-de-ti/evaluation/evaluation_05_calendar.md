@@ -10,7 +10,7 @@ tags:
   - project/escola-de-ti
   - status/active
 created: 2026-11-03
-updated: 2026-11-17
+updated: 2026-11-18
 ---
 # Avaliação 5 — Calendário de Apresentações (remarcado)
 
@@ -78,6 +78,9 @@ de **23/11 permanece intocada** (provas da turma), e a banca da
 
 > A noite de abertura da Turma B (10/11) foi mantida com uma equipe apenas.
 > **Ergane foi confirmada pelo professor como A8**, a última equipe da Turma A.
+>
+> **Ponto de atenção — Ergane (A8):** houve um problema durante a apresentação.
+> O caso fica para revisão do professor, sem alterar o horário sorteado.
 
 ## ✅ Pendências
 
