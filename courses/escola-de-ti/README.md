@@ -40,9 +40,9 @@ Simula o dia a dia de trabalho e a organização de um projeto de software, dese
 | [`evaluation/question_bank_evaluation_05.md`](evaluation/question_bank_evaluation_05.md) | ❓ **Banco de questões de exemplo** (estudo para a Avaliação 5) |
 | [`evaluation/evaluation_06_jury_presentation.md`](evaluation/evaluation_06_jury_presentation.md) | 📊 **Avaliação 6** — Banca de Apresentação (auditório Dona Etelvina, com jurados) |
 | [`evaluation/jury_scorecard.md`](evaluation/jury_scorecard.md) | 🏆 **Ficha dos jurados** (estilo hackathon) |
-| [`evaluation/recuperacao_individual_2026.md`](evaluation/recuperacao_individual_2026.md) | 🧭 **Recuperação individual** — prova prática de 7 dias + entrevista presencial (50% cada) |
+| [`evaluation/individual_recovery_2026.md`](evaluation/individual_recovery_2026.md) | 🧭 **Recuperação individual** — prova prática de 7 dias + entrevista presencial (50% cada) |
 | [`evaluation/exam-escola-ti/`](evaluation/exam-escola-ti/) | 🧪 **Sistema de provas** (submódulo público, v1.6.0) — template único + pastas de ano `exams/<ano>/<track>/` via issueops |
-| [`evaluation/teacher-escola-ti/`](evaluation/teacher-escola-ti/) | 🔒 **Material do docente** (submódulo privado, v1.11.0) — decisões, riscos, roteiros, **suítes escondidas** (`suites/<ano>/<track>/`) e guia de correção |
+| [`evaluation/teacher-escola-ti/`](evaluation/teacher-escola-ti/) | 🔒 **Material do docente** (submódulo privado, v1.11.1) — decisões, riscos, roteiros, **suítes escondidas** (`suites/<ano>/<track>/`) e guia de correção |
 | [`classes/2026/README.md`](classes/2026/README.md) | 🏫 **Turmas 2026** — registro das equipes por turma (A: 8 equipes, B: 7 equipes) |
 
 ## 🗺️ Mapa de Navegação
@@ -60,7 +60,7 @@ escola-de-ti/
     ├── evaluation_01..06      ← 6 métodos de avaliação (notas e regras de cada um)
     ├── question_bank_evaluation_05.md  ← questões de exemplo (estudo p/ Avaliação 5)
     ├── jury_scorecard.md          ← ficha hackathon dos jurados (Avaliação 6)
-    ├── recuperacao_individual_2026.md ← guia público da recuperação (7 dias + entrevista)
+    ├── individual_recovery_2026.md ← guia público da recuperação (7 dias + entrevista)
     ├── exam-escola-ti/            ← (submódulo público) sistema de provas:
     │                                template único + exams/<ano>/<track>/ (overlay no dia da prova)
     ├── teacher-escola-ti/         ← (submódulo privado) material do docente:
